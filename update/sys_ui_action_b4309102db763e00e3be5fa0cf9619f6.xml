@@ -5,7 +5,7 @@
         <active>true</active>
         <client>true</client>
         <comments/>
-        <condition>gs.hasRole('itil') &amp;&amp; !new backupRequestStateHandler(current).isOnHold() &amp;&amp; new backupRequestStateHandler(current).isNext("assess")</condition>
+        <condition>gs.hasRole('itil') &amp;&amp; !new changeRequestStateHandler(current).isOnHold() &amp;&amp; new changeRequestStateHandler(current).isNext("assess")</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -22,22 +22,13 @@
         <onclick>moveToAssess()</onclick>
         <order>100</order>
         <script><![CDATA[function moveToAssess(){
-	var ga = new GlideAjax("BackupRequestStateHandlerAjax");
-	ga.addParam("sysparm_name", "getNextStateValues");
-	ga.addParam("sysparm_Backup_sys_id", g_form.getUniqueValue());
-	ga.getXMLAnswer(function(stateValues) {
-		var returnedStates = stateValues.evalJSON();
-		g_form.setValue("state", returnedStates[0]);
-		gsftSubmit(null, g_form.getFormElement(), 'state_model_request_assess_approval');
-	});
-}
-
-if (typeof window == 'undefined')
-   updateAndRedirect();
-
-function updateAndRedirect() {
-    current.update();
-    action.setRedirectURL(current);
+	
+	g_form.setValue("state", "-4");
+    if (g_form.isNewRecord()) {
+            g_form.save();
+        } else {
+            g_form.submit();
+        }
 }]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -50,7 +41,7 @@ function updateAndRedirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4309102db763e00e3be5fa0cf9619f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -59,7 +50,7 @@ function updateAndRedirect() {
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_ui_action_b4309102db763e00e3be5fa0cf9619f6</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-19 09:55:02</sys_updated_on>
+        <sys_updated_on>2017-05-20 08:37:07</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

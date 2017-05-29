@@ -16,10 +16,10 @@ Backup is waiting for approval</messages>
         <name>Show valid states values</name>
         <order/>
         <script><![CDATA[function onLoad() {
-	var ga = new GlideAjax('BackupRequestStateHandlerAjax');
+	var ga = new GlideAjax('ChangeRequestStateHandlerAjax');
 	ga.addParam('sysparm_name','ajaxFunction_getNextStateValues');
-	ga.addParam('sysparm_backup_sys_id',g_form.getUniqueValue());
-	ga.addParam('sysparm_backup_type',g_form.getValue('type'));
+	ga.addParam('sysparm_change_sys_id',g_form.getUniqueValue());
+	ga.addParam('sysparm_change_type',g_form.getValue('type'));
 	ga.getXMLAnswer(nextValidValue);
  
 }
@@ -52,12 +52,12 @@ function nextValidValue(nextStateValues) {
 	}
 	
 	if (g_form.getValue("on_hold") === 'true') {
-		g_form.showFieldMsg("state", getMessage("Backup is currently on hold"));
+		g_form.showFieldMsg("state", getMessage("Change is currently on hold"));
 		return;
 	}
 	
 	if (g_form.getValue('state') == "-4" || g_form.getValue('state') == "-3" )
-		g_form.showFieldMsg("state", getMessage("Backup is waiting for approval"));
+		g_form.showFieldMsg("state", getMessage("Change is waiting for approval"));
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
@@ -66,7 +66,7 @@ function nextValidValue(nextStateValues) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6871d502db763e00e3be5fa0cf961968</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Show valid states values</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -75,7 +75,7 @@ function nextValidValue(nextStateValues) {
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_6871d502db763e00e3be5fa0cf961968</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-19 10:02:10</sys_updated_on>
+        <sys_updated_on>2017-05-20 08:41:39</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
