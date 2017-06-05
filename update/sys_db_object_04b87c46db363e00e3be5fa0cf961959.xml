@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 08:11:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>04b87c46db363e00e3be5fa0cf961959</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>backup</sys_name>

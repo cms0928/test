@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Effective date &amp; time(for reference only) </column_label>
+        <column_label>Effective date &amp; time(for reference only)</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,16 +47,16 @@
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 08:36:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>518eb80adb363e00e3be5fa0cf961950</sys_id>
+        <sys_id>6fa9975bdb477200e3be5fa0cf961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Effective date &amp; time(for reference only) </sys_name>
+        <sys_name>Effective date &amp; time(for reference only)</sys_name>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_dictionary_x_votu_backup_backup_u_glide_date_time_13</sys_update_name>
-        <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-19 08:36:22</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-05 03:22:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

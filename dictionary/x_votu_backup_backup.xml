@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="29" type="collection">
+    <element audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" type="collection">
         <element label="On hold" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Rollback" max_length="40" name="u_boolean_2" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Yearly" label="Period" mandatory="true" max_length="40" name="u_choice_5" type="string">
             <choice>
                 <element label="Daily" sequence="0" value="Daily"/>
@@ -21,11 +22,12 @@
                 <element label="Friday" sequence="4" value="Friday"/>
             </choice>
         </element>
-        <element label="Effective date &amp; time(for reference only) " max_length="40" name="u_glide_date_time_13" type="glide_date_time"/>
+        <element label="Effective date &amp; time(for reference only)" max_length="40" name="u_glide_date_time_13" type="glide_date_time"/>
         <element label="Expiry date" max_length="40" name="u_glide_date_time_14" type="glide_date_time"/>
         <element label="Time" max_length="40" name="u_glide_time_10" type="glide_time"/>
         <element default="1" label="No.of copies" max_length="40" name="u_integer_12" type="integer"/>
         <element default="1" label="No. of Cycles" mandatory="true" max_length="40" name="u_integer_6" type="integer"/>
+        <element label="Assign to" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="SourcePath" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Impact" max_length="40" name="u_string_15" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="SourceMachine Name" max_length="40" name="u_string_2" type="string"/>
