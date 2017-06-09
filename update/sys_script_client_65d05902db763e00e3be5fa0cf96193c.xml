@@ -13,18 +13,22 @@
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	//Hide 'On hold' for states 'New' (-5), 'Closed' (3) and 'Canceled' (4)
 	if (oldValue === '-5' ||
+		oldValue === '-3' ||
+		oldValue === '-2' ||
+		oldValue === '-1' ||
+		oldValue === '0' ||
 		oldValue === '3' ||
 		oldValue === '4')
-		g_form.setDisplay('u_boolean_1', false);
+		g_form.setDisplay('on_hold', false);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 09:57:32</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65d05902db763e00e3be5fa0cf96193c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Hide "On hold" for certain states</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -33,7 +37,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_65d05902db763e00e3be5fa0cf96193c</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-20 03:20:19</sys_updated_on>
+        <sys_updated_on>2017-06-09 09:19:24</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -32,12 +32,12 @@
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-06-07 04:22:05</sys_created_on>
         <sys_id>b18a394cdbdf7200e3be5fa0cf9619f7</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-06-09 08:57:12</sys_updated_on>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>ba_requester</sys_updated_by>
+        <sys_updated_on>2017-06-09 09:00:47</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="backup">e1eccce3db877200e3be5fa0cf961948</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
