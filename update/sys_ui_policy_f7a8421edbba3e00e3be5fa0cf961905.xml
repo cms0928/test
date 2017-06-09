@@ -3,7 +3,6 @@
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
         <conditions table="x_votu_backup_backup">approval=requested^NQu_boolean_1=true^EQ<item endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="requested"/>
-            <item endquery="false" field="u_boolean_1" goto="false" newquery="true" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

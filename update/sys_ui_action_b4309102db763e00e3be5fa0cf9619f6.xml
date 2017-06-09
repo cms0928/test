@@ -22,14 +22,21 @@
         <onclick>moveToAssess()</onclick>
         <order>100</order>
         <script><![CDATA[function moveToAssess(){
-	
-	g_form.setValue("state", "-4");
-    if (g_form.isNewRecord()) {
-            g_form.save();
-        } else {
-            g_form.submit();
-        }
-}]]></script>
+	var check = g_form.getValue('u_choose_approver');
+	if (check!=''){
+		
+		g_form.setValue("state", "-4");
+		if (g_form.isNewRecord()) {
+			g_form.save();
+		} else {
+			g_form.submit();
+		}
+	}else{
+		alert('choose approver to send request approval');
+		g_form.flash("u_choose_approver", "#FFFACD", 0);
+	}
+}
+]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -37,11 +44,11 @@
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 09:55:02</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4309102db763e00e3be5fa0cf9619f6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -50,7 +57,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_ui_action_b4309102db763e00e3be5fa0cf9619f6</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-20 08:37:07</sys_updated_on>
+        <sys_updated_on>2017-06-09 08:27:02</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
