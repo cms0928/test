@@ -5,7 +5,7 @@
         <active>true</active>
         <client>true</client>
         <comments/>
-        <condition>!current.isNewRecord() &amp;&amp; (new Workflow().hasWorkflow(current))</condition>
+        <condition>!current.isNewRecord()</condition>
         <form_action>true</form_action>
         <form_button>false</form_button>
         <form_context_menu>false</form_context_menu>
@@ -28,7 +28,7 @@ function showWorkflowContext() {
    url.addParam('sysparm_stack', 'no');
    url.addParam('sysparm_table', g_form.getTableName());
    url.addParam('sysparm_document', id);
-   g_navigation.open(url.getURL(), "_blank")
+   g_navigation.open(url.getURL(), "_blank");
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -37,11 +37,11 @@ function showWorkflowContext() {
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 09:47:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>589e49cedb363e00e3be5fa0cf961975</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Show Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -50,7 +50,7 @@ function showWorkflowContext() {
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_ui_action_589e49cedb363e00e3be5fa0cf961975</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-19 09:47:49</sys_updated_on>
+        <sys_updated_on>2017-07-21 07:44:45</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
