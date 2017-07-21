@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
             <sys_created_on>2017-06-05 08:29:49</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>130028afdb877200e3be5fa0cf9619d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Operator</sys_name>

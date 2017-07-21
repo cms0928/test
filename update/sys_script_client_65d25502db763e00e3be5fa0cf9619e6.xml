@@ -11,8 +11,8 @@
         <name>Planned Start/End Date Validation</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-    var startDate = g_form.getValue("u_glide_date_time_13");
-    var endDate = g_form.getValue("u_glide_date_time_14");
+    var startDate = g_form.getValue("u_schedule_start");
+    var endDate = g_form.getValue("u_schedule_end");
     var format = g_user_date_time_format;
 
     if (startDate === "" || endDate === "")
@@ -30,16 +30,16 @@
 	// 0 from "getDateFormat" means an invalid date string was passed to it
 	if (startDateMs === 0 || endDateMs === 0) {
         if (startDate === 0)
-            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_glide_date_time_13")));
+            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_schedule_start")));
 
         if (endDate === 0)
-            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_glide_date_time_14")));
+            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_schedule_end")));
 
         return false;
     }
 
 	if (startDateMs > endDateMs) {
-        g_form.addErrorMessage(new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_glide_date_time_14"), g_form.getLabelOf("u_glide_date_time_13")));
+        g_form.addErrorMessage(new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_schedule_start"), g_form.getLabelOf("u_schedule_end")));
 
         return false;
 
@@ -48,11 +48,11 @@
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 10:06:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65d25502db763e00e3be5fa0cf9619e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Planned Start/End Date Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_65d25502db763e00e3be5fa0cf9619e6</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-19 10:27:06</sys_updated_on>
+        <sys_updated_on>2017-07-13 09:55:49</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>

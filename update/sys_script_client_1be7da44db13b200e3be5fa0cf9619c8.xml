@@ -11,12 +11,29 @@
         <name>show approver</name>
         <order/>
         <script><![CDATA[function onLoad() {
-	//var requester = g_form.getValue('opened_by');
 	var approver = g_scratchpad.approver.split('|');
-	for (var i=0; i < approver.length-1; i++) {
-		var name = approver[i];
-		var value = approver[++i];
-		g_form.addOption('u_choose_approver', value, name);
+	var requester = g_form.getValue('opened_by');
+	var check = g_form.getValue('u_choose_approver');
+	//g_form.addInfoMessage(check);
+	if (check != ''){
+		for (var i=0; i < approver.length-1; i++) {
+			var name = approver[i];
+			var value = approver[++i];
+			
+			if (value ==check){
+				//g_form.addInfoMessage('hit');
+			//g_form.removeOption('u_choose_approver',value, name);
+			}else{
+				g_form.addOption('u_choose_approver', value, name);
+			}
+			
+		}
+	}else{
+		for (var a=0; a < approver.length-1; a++) {
+			var name1 = approver[a];
+			var value1 = approver[++a];
+			g_form.addOption('u_choose_approver', value1, name1);
+		}
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -26,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1be7da44db13b200e3be5fa0cf9619c8</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>97</sys_mod_count>
         <sys_name>show approver</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -35,7 +52,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_1be7da44db13b200e3be5fa0cf9619c8</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-06-09 07:55:35</sys_updated_on>
+        <sys_updated_on>2017-06-28 09:37:12</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
