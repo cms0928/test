@@ -20,7 +20,7 @@
 		g_form.setDisplay('u_target_backup_snapshot', false);
 		g_form.setDisplay('u_target_date', false);
 		g_form.setDisplay('u_effect_date', false);
-		g_form.setDisplay('u_prod_uat', false);
+		g_form.setDisplay('u_prod', false);
 		break;
 		
 		case 'new_backup':
@@ -30,7 +30,7 @@
 		g_form.setDisplay('u_string_2', true);
 		g_form.setDisplay('u_string_6', true);
 		g_form.setDisplay('u_effect_date', true);
-		g_form.setDisplay('u_prod_uat', true);
+		g_form.setDisplay('u_prod', true);
 		
 		g_form.setDisplay('u_target_date', false);
 		g_form.setDisplay('u_expiry_date', false);
@@ -47,7 +47,7 @@
 		
 		g_form.setDisplay('u_effect_date', false);
 		g_form.setDisplay('u_string_1', false);
-		g_form.setDisplay('u_prod_uat', false);
+		g_form.setDisplay('u_prod', false);
 		g_form.setDisplay('u_target_backup_snapshot', false);
 		break;
 		
@@ -59,7 +59,7 @@
 		
 		g_form.setDisplay('u_effect_date', false);
 		g_form.setDisplay('u_string_1', false);
-		g_form.setDisplay('u_prod_uat', false);
+		g_form.setDisplay('u_prod', false);
 		g_form.setDisplay('u_target_date', false);
 		break;
 		
@@ -78,7 +78,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ab6085fedb3ffa00e3be5fa0cf961977</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>backup type</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -87,7 +87,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_ab6085fedb3ffa00e3be5fa0cf961977</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-07-11 01:16:13</sys_updated_on>
+        <sys_updated_on>2017-07-24 07:43:41</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
