@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-08-17 10:22:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ccf538c7db24c740e3be5fa0cf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Workflow.admin</sys_name>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_ui_action display_value="Show Workflow">589e49cedb363e00e3be5fa0cf961975</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_ccf538c7db24c740e3be5fa0cf9619ea</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-08-17 10:22:53</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

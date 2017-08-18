@@ -42,12 +42,15 @@
 	
 	var date = todayDate.getNumericValue();
 	var time = todayTime.getNumericValue();
+	var user = gs.getUserID();
 	
 	g_scratchpad.today = date;
 	g_scratchpad.time = time;
 	
-	var user = gs.getUserID();
+	
 	g_scratchpad.user = user;
+	
+
 	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -57,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6542e4afdb800340e3be5fa0cf9619eb</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>today</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -66,7 +69,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_6542e4afdb800340e3be5fa0cf9619eb</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-08-15 10:31:30</sys_updated_on>
+        <sys_updated_on>2017-08-16 08:32:50</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

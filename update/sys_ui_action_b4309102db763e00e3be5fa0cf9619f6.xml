@@ -5,7 +5,7 @@
         <active>true</active>
         <client>true</client>
         <comments/>
-        <condition>gs.hasRole('itil') &amp;&amp;current.u_state=='-6'</condition>
+        <condition>current.u_state=='-6'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -32,19 +32,19 @@ function checkExpiry(){
 	var expiryDateMs = getDateFromFormat(expiryDate, format);
 	//g_form.addInfoMessage(expiryDateMs);
 	//g_form.addInfoMessage(limitDate);
+	
 	if (expiryDateMs === 0) {
 		//alert('The date of Expiry Date is invalid or empty');
 		g_form.flash("u_expiry_date", "#ffff00", 10);
 		validate = 'false';
 		
 	}
-	if (expiryDateMs < todayDate){
-		if (limitDate <= expiryDateMs){
-			//alert('The date of Expiry Date must be within 7 years from now');
-			g_form.flash("u_expiry_date", "#ffff00", 10);
-			validate = 'false';
-			//g_form.addErrorMessage(validate);
-		}
+	if ((expiryDateMs < todayDate) || (limitDate <= expiryDateMs)){
+		//alert('The date of Expiry Date must be within 7 years from now');
+		g_form.flash("u_expiry_date", "#ffff00", 10);
+		validate = 'false';
+		//g_form.addErrorMessage(validate);
+		
 	}
 }
 function checkSnapshot(){
@@ -149,7 +149,7 @@ function moveToAssess(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4309102db763e00e3be5fa0cf9619f6</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -158,7 +158,7 @@ function moveToAssess(){
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_ui_action_b4309102db763e00e3be5fa0cf9619f6</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-08-15 08:59:19</sys_updated_on>
+        <sys_updated_on>2017-08-17 03:24:49</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
