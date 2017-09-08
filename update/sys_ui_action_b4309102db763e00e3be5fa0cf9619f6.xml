@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>state_model_request_assess_approval</action_name>
+        <action_name>request_approval</action_name>
         <active>true</active>
         <client>true</client>
         <comments/>
@@ -22,6 +22,32 @@
         <onclick>moveToAssess()</onclick>
         <order>100</order>
         <script><![CDATA[var validate = 'true';
+
+function checkExpiry7d(){
+	
+	var expiryDate = g_form.getValue("u_expiry7d");
+	var todayDate = g_scratchpad.today;
+	var format = g_user_date_format;
+	
+	var limitDate = todayDate +(7*1000*60*60*24);
+	var expiryDateMs = getDateFromFormat(expiryDate, format);
+	//g_form.addInfoMessage(expiryDateMs);
+	//g_form.addInfoMessage(limitDate);
+	
+	if (expiryDateMs === 0) {
+		//alert('The date of Expiry Date is invalid or empty');
+		g_form.flash("u_expiry7d", "#ffff00", 10);
+		validate = 'false';
+		
+	}
+	if ((expiryDateMs < todayDate) || (limitDate <= expiryDateMs)){
+		//alert('The date of Expiry Date must be within 7 years from now');
+		g_form.flash("u_expiry7d", "#ffff00", 10);
+		validate = 'false';
+		//g_form.addErrorMessage(validate);
+		
+	}
+}
 function checkExpiry(){
 	//alert('loading expiry');
 	var expiryDate = g_form.getValue("u_expiry_date");
@@ -50,42 +76,49 @@ function checkExpiry(){
 function checkSnapshot(){
 	//alert('loading snapshot');
 	var targetDate = g_form.getValue("u_target_backup_snapshot");
+	var expiryDate = g_form.getValue("u_expiry7d");
 	var todayDate = g_scratchpad.today;
 	
-	var format = g_user_date_time_format;
-	var targetDateMs = getDateFromFormat(targetDate, format);
+	var format1 = g_user_date_time_format;
+	var targetDateMs = getDateFromFormat(targetDate, format1);
+	var format2 = g_user_date_format;
+	var expiryDateMs = getDateFromFormat(expiryDate, format2);
 	//g_form.addInfoMessage(targetDateMs);
 	//g_form.addInfoMessage(todayDate);
 	//g_form.addInfoMessage(todayTimeMs);
-	if (targetDateMs === 0) {
+	if (targetDateMs === 0||targetDateMs < todayDate) {
 		//alert('The date of Target Backup Snapshot is invalid or empty');
 		g_form.flash("u_target_backup_snapshot", "#ffff00", 10);
 		validate = 'false';
 	}
-	if (targetDateMs < todayDate){
+	if (targetDateMs >= expiryDateMs){
 		
 		//alert('The date of Target Backup Snapshot must be after or on today');
 		g_form.flash("u_target_backup_snapshot", "#ffff00", 10);
+		g_form.flash("u_expiry7d", "#ffff00", 10);
 		validate = 'false';
 	}
 }
 
 function checkTarget(){
 	//alert('loading target');
+	var expiryDate = g_form.getValue("u_expiry_date");
 	var targetDate = g_form.getValue("u_target_date");
 	var todayDate = g_scratchpad.today;
 	
 	var format = g_user_date_format;
 	var targetDateMs = getDateFromFormat(targetDate, format);
+	var expiryDateMs = getDateFromFormat(expiryDate, format);
 	//g_form.addInfoMessage(targetDateMs);
 	//g_form.addInfoMessage(todayDate);
 	
 	
-	if (targetDateMs === 0) {
+	if (targetDateMs === 0||targetDateMs <= todayDate) {
 		g_form.flash("u_target_date", "#ffff00", 10);
 		validate = 'false';
 	}
-	if (targetDateMs <= todayDate){
+	if (targetDateMs >= expiryDateMs){
+		g_form.flash("u_expiry_date", "#ffff00", 10);
 		g_form.flash("u_target_date", "#ffff00", 10);
 		validate = 'false';
 	}
@@ -106,6 +139,8 @@ function checkValidate(){
 		g_form.submit();
 	}else{
 		g_form.addErrorMessage('Correct the highlited fields to continue request approval');
+		validate = 'true';
+		
 	}
 	
 }
@@ -114,7 +149,7 @@ function moveToAssess(){
 	var checkBackupType = g_form.getValue('u_backup_type');
 	switch (checkBackupType){
 		case 'snapshot':
-		checkExpiry();
+		checkExpiry7d();
 		checkSnapshot();
 		checkApproval();
 		checkValidate();
@@ -149,7 +184,7 @@ function moveToAssess(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4309102db763e00e3be5fa0cf9619f6</sys_id>
-        <sys_mod_count>89</sys_mod_count>
+        <sys_mod_count>97</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -158,7 +193,7 @@ function moveToAssess(){
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_ui_action_b4309102db763e00e3be5fa0cf9619f6</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-08-17 03:24:49</sys_updated_on>
+        <sys_updated_on>2017-09-04 07:15:17</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

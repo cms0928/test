@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_schedule_end</field>
+        <global>true</global>
+        <messages/>
+        <name>Planned End Validation</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    var startDate = g_form.getValue("u_schedule_start");
+    var endDate = g_form.getValue("u_schedule_end");
+    var format = g_user_date_time_format;
+
+    if (startDate === "" || endDate === "")
+        return true;
+
+    // get date strings into a number of milliseconds since 1970-01-01
+    var startDateMs = getDateFromFormat(startDate, format);
+	var endDateMs = getDateFromFormat(endDate, format);
+	
+	if (startDateMs < endDateMs)
+		return true;
+
+	g_form.clearMessages();
+	
+	// 0 from "getDateFormat" means an invalid date string was passed to it
+	//if (startDateMs === 0 || endDateMs === 0) {
+        //if (startDate === 0)
+            //g_form.showFieldMsg('u_schedule_start',new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_schedule_start")));
+
+        if (startDate === 0){
+			g_form.hideFieldMsg('u_schedule_start', true);
+            g_form.showFieldMsg('u_schedule_end',new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_schedule_end")));
+
+        return false;
+    }
+
+	if (startDateMs > endDateMs) {
+		g_form.hideFieldMsg('u_schedule_start', true);
+        g_form.showFieldMsg('u_schedule_end',new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_schedule_start"), g_form.getLabelOf("u_schedule_end")));
+
+        return false;
+
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-09-01 09:54:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6feef9bbdbb8030099d45040cf961948</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Planned End Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_script_client_6feef9bbdbb8030099d45040cf961948</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-09-01 10:08:48</sys_updated_on>
+        <table>x_votu_backup_backup</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

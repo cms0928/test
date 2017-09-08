@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="39" type="collection">
         <element label="on hold" max_length="40" name="on_hold" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action" max_length="40" name="u_action" type="string">
             <choice>
@@ -29,8 +29,10 @@
             </choice>
         </element>
         <element label="Effective date &amp; time" max_length="40" name="u_effect_date" type="glide_date"/>
+        <element label="Expiry Date (Max. 7 days)" max_length="40" name="u_expiry7d" type="glide_date"/>
         <element label="Expiry Date (Max. 7 years)" max_length="40" name="u_expiry_date" type="glide_date"/>
         <element default="0" label="Fallback Count" max_length="40" name="u_fallback_count" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Fallback Reason" max_length="400" name="u_fallback_reason" type="string"/>
         <element label="Actual Start Date" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
         <element label="Actual End Date" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Impact" mandatory="true" max_length="400" name="u_impact" type="string"/>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-08-31 10:22:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>23fbf8abdb74030099d45040cf961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_votu_backup.operator</sys_name>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_security_acl display_value="x_votu_backup_backup.close_notes">37eb746fdb74030099d45040cf9619c4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_23fbf8abdb74030099d45040cf961901</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-08-31 10:22:01</sys_updated_on>
+        <sys_user_role display_value="x_votu_backup.operator" name="x_votu_backup.operator">4500b322dbec8740e3be5fa0cf961976</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
