@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="39" type="collection">
+    <element audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="49" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Backup Request Type" max_length="40" name="category" type="string"/>
         <element label="on hold" max_length="40" name="on_hold" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action" max_length="40" name="u_action" type="string">
             <choice>
