@@ -41,7 +41,7 @@
 
 	if (startDateMs > endDateMs) {
 		g_form.hideFieldMsg('u_schedule_start', true);
-        g_form.showFieldMsg('u_schedule_end',new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_schedule_start"), g_form.getLabelOf("u_schedule_end")));
+        g_form.showFieldMsg('u_schedule_end',new GwtMessage().getMessage("{1} must be after {0}", g_form.getLabelOf("u_schedule_start"), g_form.getLabelOf("u_schedule_end")));
 
         return false;
 
@@ -54,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6feef9bbdbb8030099d45040cf961948</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Planned End Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_6feef9bbdbb8030099d45040cf961948</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-09-01 10:08:48</sys_updated_on>
+        <sys_updated_on>2017-09-12 03:36:09</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

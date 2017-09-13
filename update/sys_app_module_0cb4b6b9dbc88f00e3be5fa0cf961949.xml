@@ -21,7 +21,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_votu_backup.user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0cb4b6b9dbc88f00e3be5fa0cf961949</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Take Snapshot</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -40,7 +40,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_app_module_0cb4b6b9dbc88f00e3be5fa0cf961949</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-07-20 02:36:19</sys_updated_on>
+        <sys_updated_on>2017-09-11 02:50:34</sys_updated_on>
         <timeline_page/>
         <title>Take Snapshot</title>
         <uncancelable>false</uncancelable>

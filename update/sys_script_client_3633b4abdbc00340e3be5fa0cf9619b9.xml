@@ -15,29 +15,35 @@
 	if (state == '-5'||state =='-6'){
 		var check = g_form.getValue('u_backup_type');
 		if (check == 'keep_backup'){
-			var checkField = g_form.getValue('u_expiry_date');
-			if (checkField !=''){
-				var expiryDate = g_form.getValue("u_expiry_date");
+			var expiryDate = g_form.getValue('u_expiry_date');
+			if (expiryDate !=''){
+				var targetDate = g_form.getValue("u_target_date");
 				var todayDate = g_scratchpad.today;
 				var format = g_user_date_format;
 				
-				var limitDate = todayDate +(7*1000*60*60*24*365.24);
+				var targetDateMs = getDateFromFormat(targetDate, format);
+				var limitDate = targetDateMs +(7*1000*60*60*24*365.24);
 				var expiryDateMs = getDateFromFormat(expiryDate, format);
+				
 				//g_form.addInfoMessage(expiryDateMs);
 				//g_form.addInfoMessage(limitDate);
-				
+				if (expiryDateMs === 0) {
+					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_expiry_date")));
+					return false;
+				}
 				if (expiryDateMs < todayDate){
 					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} must be after Today", g_form.getLabelOf("u_expiry_date")));
 					return false;
 				}
-				if (expiryDateMs === 0) {
-					g_form.showFieldMsg(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_expiry_date")));
+				
+				if (targetDate !='' && limitDate < expiryDateMs) {
+					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} must be within 7 years from {1}", g_form.getLabelOf("u_expiry_date"), g_form.getLabelOf("u_target_date")));
 					return false;
 				}
-				if (limitDate < expiryDateMs) {
-					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} must be within 7 years from now", g_form.getLabelOf("u_expiry_date")));
-					return false;
+				if (targetDate !='' && targetDateMs >= expiryDateMs) {
+					g_form.showFieldMsg('u_expiry_date',new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_expiry_date"), g_form.getLabelOf("u_target_date")));
 				}
+				
 			}
 		}
 	}
@@ -49,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3633b4abdbc00340e3be5fa0cf9619b9</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>validate expiryDate</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -58,7 +64,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_3633b4abdbc00340e3be5fa0cf9619b9</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-08-25 04:04:23</sys_updated_on>
+        <sys_updated_on>2017-09-12 06:38:18</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -8,36 +8,56 @@
         <field>u_expiry7d</field>
         <global>true</global>
         <messages/>
-        <name>validate expiry7days</name>
+        <name>expiry7d validate</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	var state = g_form.getValue('u_state');
 	if (state == '-5'||state =='-6'){
 		var check = g_form.getValue('u_backup_type');
+		
 		if (check == 'snapshot'){
-			var checkField = g_form.getValue('u_expiry7d');
-			if (checkField !=''){
-				var expiryDate = g_form.getValue("u_expiry7d");
+			var expiryDate = g_form.getValue('u_expiry7d');
+			
+			if (expiryDate !=''){
+				var snapshotDate = g_form.getValue("u_target_backup_snapshot");
 				var todayDate = g_scratchpad.today;
-				var format = g_user_date_format;
+				var format1 = g_user_date_time_format;
+				var format2 = g_user_date_format;
 				
-				var limitDate = todayDate +(7*1000*60*60*24);
-				var expiryDateMs = getDateFromFormat(expiryDate, format);
+				var expiryDateMs = getDateFromFormat(expiryDate, format2);
+				var snapshotDateMs = getDateFromFormat(snapshotDate, format1);
+				var limitDateMs = snapshotDateMs +(8*1000*60*60*24);
 				//g_form.addInfoMessage(expiryDateMs);
-				//g_form.addInfoMessage(limitDate);
-				
-				if (expiryDateMs < todayDate){
-					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} must be after Today", g_form.getLabelOf("u_expiry7d")));
-					return false;
-				}
+				//g_form.addInfoMessage(todayDate);
 				if (expiryDateMs === 0) {
-					g_form.showFieldMsg(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_expiry7d")));
+					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_expiry7d")));
 					return false;
 				}
-				if (limitDate < expiryDateMs) {
-					g_form.showFieldMsg('u_expiry7d', new GwtMessage().getMessage("{0} must be within 7 days from now", g_form.getLabelOf("u_expiry7d")));
+				if (expiryDateMs <= todayDate){
+					g_form.showFieldMsg('u_expiry7d',new GwtMessage().getMessage("{0} must be after {1} and Today", g_form.getLabelOf("u_expiry7d"), g_form.getLabelOf("u_target_backup_snapshot")));
 					return false;
 				}
+
+				if (snapshotDate != '' && snapshotDateMs < todayDate){
+					//g_form.clearMessages();
+					g_form.showFieldMsg('u_target_backup_snapshot', new GwtMessage().getMessage("{0} must be after Today", g_form.getLabelOf("u_target_backup_snapshot")));
+					return false;
+				}
+				if (snapshotDate != '' && snapshotDateMs > expiryDateMs) {
+					//g_form.hideFieldMsg('u_target_backup_snapshot', true);
+					g_form.showFieldMsg('u_expiry7d',new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_expiry7d"), g_form.getLabelOf("u_target_backup_snapshot")));
+					return false;
+				}
+				if (snapshotDate != '' && limitDateMs < expiryDateMs) {
+					g_form.showFieldMsg('u_expiry7d', new GwtMessage().getMessage("{0} must be within 7 days from take snapshot date", g_form.getLabelOf("u_expiry7d")));
+					return false;
+				}
+				//if ((snapshotDateMs <= expiryDateMs)&&(snapshotDateMs >= todayDate)&&(expiryDateMs >= limitDateMs)){
+					//alert('test12:03A');
+					//g_form.clearMessages();
+					//g_form.hideFieldMsg('u_target_backup_snapshot', true);
+					//return true;
+				//}
 			}
 		}
 	}
@@ -49,8 +69,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>167b6461dbb84b40e3be5fa0cf96197a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>validate expiry7days</sys_name>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>expiry7d validate</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
         <sys_policy/>
@@ -58,7 +78,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_167b6461dbb84b40e3be5fa0cf96197a</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-08-25 04:07:25</sys_updated_on>
+        <sys_updated_on>2017-09-12 07:34:46</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

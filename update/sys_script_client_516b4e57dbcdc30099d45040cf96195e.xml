@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>u_expiry_date</field>
+        <field>u_glide_date_time_2</field>
         <global>true</global>
         <messages/>
-        <name>expiry date 7y validation</name>
+        <name>Actual End Validation</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    var startDate = g_form.getValue("u_target_date");
-    var endDate = g_form.getValue("u_expiry_date");
-    var format = g_user_date_format;
+    var startDate = g_form.getValue("u_glide_date_time_1");
+    var endDate = g_form.getValue("u_glide_date_time_2");
+    var format = g_user_date_time_format;
 
     if (startDate === "" || endDate === "")
         return true;
@@ -22,10 +22,9 @@
     var startDateMs = getDateFromFormat(startDate, format);
 	var endDateMs = getDateFromFormat(endDate, format);
 	
-	if (startDateMs < endDateMs){
-		//g_form.hideFieldMsg('u_target_date', true);
+	if (startDateMs < endDateMs)
 		return true;
-	}
+
 	g_form.clearMessages();
 	
 	// 0 from "getDateFormat" means an invalid date string was passed to it
@@ -33,16 +32,16 @@
         //if (startDate === 0)
             //g_form.showFieldMsg('u_schedule_start',new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_schedule_start")));
 
-        if (endDate === 0){
-			g_form.hideFieldMsg('u_target_date', true);
-            g_form.showFieldMsg('u_expiry_date',new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_expiry_date")));
+        if (startDate === 0){
+			g_form.hideFieldMsg('u_glide_date_time_1', true);
+            g_form.showFieldMsg('u_glide_date_time_2',new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_glide_date_time_2")));
 
         return false;
     }
 
-	if (startDateMs >= endDateMs) {
-		g_form.hideFieldMsg('u_target_date', true);
-        g_form.showFieldMsg('u_expiry_date',new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_expiry_date"), g_form.getLabelOf("u_target_date")));
+	if (startDateMs > endDateMs) {
+		g_form.hideFieldMsg('u_glide_date_time_1', true);
+        g_form.showFieldMsg('u_glide_date_time_2',new GwtMessage().getMessage("{1} must be after {0}", g_form.getLabelOf("u_glide_date_time_1"), g_form.getLabelOf("u_glide_date_time_2")));
 
         return false;
 
@@ -50,21 +49,21 @@
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
-        <sys_created_on>2017-09-04 04:54:14</sys_created_on>
+        <sys_created_on>2017-09-12 07:47:51</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9a07d070db09430099d45040cf9619ef</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>expiry date 7y validation</sys_name>
+        <sys_id>516b4e57dbcdc30099d45040cf96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Actual End Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
-        <sys_update_name>sys_script_client_9a07d070db09430099d45040cf9619ef</sys_update_name>
+        <sys_update_name>sys_script_client_516b4e57dbcdc30099d45040cf96195e</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-09-12 04:56:15</sys_updated_on>
+        <sys_updated_on>2017-09-12 07:47:51</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

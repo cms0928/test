@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -24,7 +24,7 @@
 	var endDateMs = getDateFromFormat(endDate, format2);
 	
 	if (startDateMs < endDateMs){
-		g_form.hideFieldMsg('u_expiry7d', true);
+		//g_form.hideFieldMsg('u_target_backup_snapshot', true);
 		return true;
 	}
 	g_form.clearMessages();
@@ -56,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dd0da4f4db09430099d45040cf961989</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>expiry 7d validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_dd0da4f4db09430099d45040cf961989</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-09-04 07:05:02</sys_updated_on>
+        <sys_updated_on>2017-09-11 10:29:53</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
