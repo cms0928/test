@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="dl_definition_rel_set">
+    <dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>false</always_replace>
+        <dl_definition display_value="Backup Requester Team Lookup Rules">4561cb13db97cb0099d45040cf9619bb</dl_definition>
+        <matcher_table>x_votu_backup_itsd_online_form_matcher</matcher_table>
+        <matcher_table_field>u_requester_team</matcher_table_field>
+        <source_table>x_votu_backup_backup</source_table>
+        <source_table_field>u_requester_team</source_table_field>
+        <sys_class_name>dl_definition_rel_set</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2018-01-02 09:18:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>83a2931bdb97cb0099d45040cf961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requester_team</sys_name>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>dl_definition_rel_set_83a2931bdb97cb0099d45040cf961971</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2018-01-02 09:18:46</sys_updated_on>
+    </dl_definition_rel_set>
+</record_update>
