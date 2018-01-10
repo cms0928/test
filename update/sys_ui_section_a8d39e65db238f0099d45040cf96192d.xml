@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Description and Impact" section_id="a8d39e65db238f0099d45040cf96192d" sys_domain="global" table="x_votu_backup_backup" version="3" view="approval">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_5</element>
+            <position>0</position>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2018-01-09 04:30:21</sys_created_on>
+            <sys_id>b4d39e65db238f0099d45040cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description and Impact" display_value="Description and Impact" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a8d39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2018-01-09 04:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_impact</element>
+            <position>1</position>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2018-01-09 04:30:21</sys_created_on>
+            <sys_id>38d39e65db238f0099d45040cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description and Impact" display_value="Description and Impact" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a8d39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2018-01-09 04:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_remarks</element>
+            <position>2</position>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2018-01-09 04:30:21</sys_created_on>
+            <sys_id>b8d39e65db238f0099d45040cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description and Impact" display_value="Description and Impact" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a8d39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2018-01-09 04:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>3</position>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2018-01-09 04:30:21</sys_created_on>
+            <sys_id>3cd39e65db238f0099d45040cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description and Impact" display_value="Description and Impact" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a8d39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2018-01-09 04:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2018-01-09 04:30:21</sys_created_on>
+            <sys_id>bcd39e65db238f0099d45040cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Description and Impact" display_value="Description and Impact" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a8d39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2018-01-09 04:30:21</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Description and Impact</caption>
+            <header>false</header>
+            <name>x_votu_backup_backup</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2018-01-09 04:30:20</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8d39e65db238f0099d45040cf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Description and Impact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+            <sys_update_name>sys_ui_section_a8d39e65db238f0099d45040cf96192d</sys_update_name>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2018-01-09 04:30:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Approval" name="approval">0cebef090a0006d40188d968934d3e9a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

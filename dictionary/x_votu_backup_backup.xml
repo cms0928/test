@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="hasLabels=true" audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="113" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="190" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Backup Request Type" max_length="40" name="category" type="string"/>
         <element label="on hold" max_length="40" name="on_hold" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action" max_length="40" name="u_action" type="string">
@@ -71,9 +71,9 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Source Path" max_length="400" name="u_string_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Machine Name" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Machine Name" max_length="300" name="u_string_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" mandatory="true" max_length="400" name="u_string_5" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="IP address" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP address" max_length="400" name="u_string_6" type="string"/>
         <element label="Target Take Snapshot Date and Time" max_length="40" name="u_target_backup_snapshot" type="glide_date_time"/>
         <element label="Target Date" max_length="40" name="u_target_date" type="glide_date"/>
     </element>

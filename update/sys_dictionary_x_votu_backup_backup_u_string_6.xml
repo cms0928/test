@@ -27,7 +27,7 @@
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>400</max_length>
         <name>x_votu_backup_backup</name>
         <next_element/>
         <primary>false</primary>
@@ -48,7 +48,7 @@
         <sys_created_on>2017-07-10 08:26:55</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b90f607adb3ffa00e3be5fa0cf9619a4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>IP address</sys_name>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
         <sys_policy/>
@@ -56,7 +56,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_dictionary_x_votu_backup_backup_u_string_6</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-08-10 09:43:17</sys_updated_on>
+        <sys_updated_on>2018-01-09 06:23:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
