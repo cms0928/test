@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="ITSD Online From">85e83446db363e00e3be5fa0cf9619a2</application>
+        <application display_value="ITSD Online Form">85e83446db363e00e3be5fa0cf9619a2</application>
         <filter/>
         <name>Backup Request</name>
         <order/>

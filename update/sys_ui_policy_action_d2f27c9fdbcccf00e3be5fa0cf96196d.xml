@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-07-24 08:17:00</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d2f27c9fdbcccf00e3be5fa0cf96196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_close_code</sys_name>

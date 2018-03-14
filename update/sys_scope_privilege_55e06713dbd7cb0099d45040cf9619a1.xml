@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>bu.elec.requester01</sys_created_by>
         <sys_created_on>2018-01-02 10:20:44</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>55e06713dbd7cb0099d45040cf9619a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>BackupAutoFill</sys_name>

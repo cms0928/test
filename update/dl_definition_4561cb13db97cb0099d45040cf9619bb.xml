@@ -11,7 +11,7 @@
         <sys_class_name>dl_definition</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2018-01-02 08:03:38</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4561cb13db97cb0099d45040cf9619bb</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Backup Requester Team Lookup Rules</sys_name>

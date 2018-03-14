@@ -92,7 +92,7 @@ function checkValidate(){
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2018-01-05 03:49:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>54a3a150db2b0f0099d45040cf96194e</sys_id>
         <sys_mod_count>47</sys_mod_count>
         <sys_name>checkApproval</sys_name>

@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2018-01-09 08:33:38</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e88b0369db638f0099d45040cf9619fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>approvalnew</sys_name>

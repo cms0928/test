@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="sys_user">nameLIKEloc^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="LIKE" or="false" value="loc"/>
+        <filter table="sys_user">nameSTARTSWITHGloria Lo [ITSD]^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Gloria Lo [ITSD]"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
-        <last_used>2017-06-18 12:32:33</last_used>
+        <last_used>2018-03-02 01:29:04</last_used>
         <mobile>true</mobile>
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
-        <sys_created_by>jennieb</sys_created_by>
-        <sys_created_on>2017-06-18 12:32:33</sys_created_on>
+        <sys_created_by>mscheung</sys_created_by>
+        <sys_created_on>2018-03-02 01:29:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>69445c33db577600e3be5fa0cf96192e</sys_id>
+        <sys_id>540d1952dba05b00494df2adbf96197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>mobile</sys_name>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
-        <sys_update_name>sys_filter_69445c33db577600e3be5fa0cf96192e</sys_update_name>
-        <sys_updated_by>jennieb</sys_updated_by>
-        <sys_updated_on>2017-06-18 12:32:33</sys_updated_on>
+        <sys_update_name>sys_filter_540d1952dba05b00494df2adbf96197e</sys_update_name>
+        <sys_updated_by>mscheung</sys_updated_by>
+        <sys_updated_on>2018-03-02 01:29:04</sys_updated_on>
         <table>sys_user</table>
         <title>mobile</title>
-        <user display_value="Jennie But [ITSD]">75ad70274f9dea00e7dfe6518110c793</user>
+        <user display_value="Michelle Cheung [ITSD]">8db013eb4f512e00e7dfe6518110c7aa</user>
     </sys_filter>
 </record_update>

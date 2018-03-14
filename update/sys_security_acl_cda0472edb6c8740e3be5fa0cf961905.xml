@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-08-16 07:12:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cda0472edb6c8740e3be5fa0cf961905</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_votu_backup_backup.u_schedule_start</sys_name>

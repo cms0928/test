@@ -30,7 +30,7 @@ function changeButtonColor(buttonID, backgroundColor) {
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-09-01 10:52:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c4c8633dbf8030099d45040cf9619fd</sys_id>

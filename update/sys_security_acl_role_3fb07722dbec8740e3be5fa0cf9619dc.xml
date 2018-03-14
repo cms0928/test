@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-08-16 10:43:04</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3fb07722dbec8740e3be5fa0cf9619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_votu_backup_backup.u_glide_date_time_2.x_votu_backup.operator</sys_name>

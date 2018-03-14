@@ -25,8 +25,8 @@
 	if (startDateMs < endDateMs)
 		return true;
 
-	g_form.clearMessages();
-	
+	g_form.hideFieldMsg('u_schedule_start', true);
+	g_form.hideFieldMsg('u_schedule_end', true);
 	// 0 from "getDateFormat" means an invalid date string was passed to it
 	//if (startDateMs === 0 || endDateMs === 0) {
         //if (startDate === 0)
@@ -54,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6feef9bbdbb8030099d45040cf961948</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Planned End Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -62,8 +62,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_6feef9bbdbb8030099d45040cf961948</sys_update_name>
-        <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-09-12 03:36:09</sys_updated_on>
+        <sys_updated_by>mscheung</sys_updated_by>
+        <sys_updated_on>2018-03-01 01:38:47</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
             <sys_created_on>2017-12-29 03:25:26</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>727bd1cedb1f4b0099d45040cf961962</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>References (C.C.)</sys_name>

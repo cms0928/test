@@ -134,7 +134,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
             <sys_created_on>2017-11-16 04:15:38</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3a9a4498dba6834099d45040cf9619fb</sys_id>

@@ -33,7 +33,7 @@
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-11-16 11:28:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10d16dd4db2a834099d45040cf961970</sys_id>

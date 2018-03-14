@@ -3,78 +3,63 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_update_set_log" version="2" view="default_log_view">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="d22a23ca0a0a0b5000f5f0a02ab87d43">d22a887f0a0a0b5000f47a10b9fc953c</list_id>
+            <element>log</element>
+            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdaf9290db7e2a00494df2adbf96191d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>glide.maint</sys_created_by>
-            <sys_created_on>2008-03-21 16:27:25</sys_created_on>
-            <sys_id>d22a88b20a0a0b5000338afd8d45d431</sys_id>
+            <sys_created_by>admin.hkt</sys_created_by>
+            <sys_created_on>2016-10-27 09:00:13</sys_created_on>
+            <sys_id>f1af9290db7e2a00494df2adbf96191e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>glide.maint</sys_updated_by>
-            <sys_updated_on>2008-03-21 16:27:25</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>log</element>
-            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="d22a23ca0a0a0b5000f5f0a02ab87d43">d22a887f0a0a0b5000f47a10b9fc953c</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>glide.maint</sys_created_by>
-            <sys_created_on>2008-03-21 16:27:25</sys_created_on>
-            <sys_id>d22a88d50a0a0b5000621a88ecaf8a24</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>glide.maint</sys_updated_by>
-            <sys_updated_on>2008-03-21 16:27:25</sys_updated_on>
+            <sys_updated_by>admin.hkt</sys_updated_by>
+            <sys_updated_on>2016-10-27 09:00:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>status</element>
-            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="d22a23ca0a0a0b5000f5f0a02ab87d43">d22a887f0a0a0b5000f47a10b9fc953c</list_id>
+            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdaf9290db7e2a00494df2adbf96191d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>2</position>
+            <position>1</position>
             <sum>false</sum>
-            <sys_created_by>glide.maint</sys_created_by>
-            <sys_created_on>2008-03-21 16:27:25</sys_created_on>
-            <sys_id>d22a88da0a0a0b500073dfd9abf5523f</sys_id>
+            <sys_created_by>admin.hkt</sys_created_by>
+            <sys_created_on>2016-10-27 09:00:13</sys_created_on>
+            <sys_id>75af9290db7e2a00494df2adbf96191e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>glide.maint</sys_updated_by>
-            <sys_updated_on>2008-03-21 16:27:25</sys_updated_on>
+            <sys_updated_by>admin.hkt</sys_updated_by>
+            <sys_updated_on>2016-10-27 09:00:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>update_set</element>
-            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="d22a23ca0a0a0b5000f5f0a02ab87d43">d22a887f0a0a0b5000f47a10b9fc953c</list_id>
+            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdaf9290db7e2a00494df2adbf96191d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>3</position>
+            <position>2</position>
             <sum>false</sum>
-            <sys_created_by>glide.maint</sys_created_by>
-            <sys_created_on>2008-03-21 16:27:25</sys_created_on>
-            <sys_id>d22a88ea0a0a0b50008d67437f4fa1e8</sys_id>
+            <sys_created_by>admin.hkt</sys_created_by>
+            <sys_created_on>2016-10-27 09:00:13</sys_created_on>
+            <sys_id>f5af9290db7e2a00494df2adbf96191e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>glide.maint</sys_updated_by>
-            <sys_updated_on>2008-03-21 16:27:25</sys_updated_on>
+            <sys_updated_by>admin.hkt</sys_updated_by>
+            <sys_updated_on>2016-10-27 09:00:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>update_source</element>
-            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="d22a23ca0a0a0b5000f5f0a02ab87d43">d22a887f0a0a0b5000f47a10b9fc953c</list_id>
+            <list_id display_value="sys_update_set_log" element="NULL" name="sys_update_set_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fdaf9290db7e2a00494df2adbf96191d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>4</position>
+            <position>3</position>
             <sum>false</sum>
-            <sys_created_by>glide.maint</sys_created_by>
-            <sys_created_on>2008-03-21 16:27:25</sys_created_on>
-            <sys_id>d22a88ee0a0a0b5000f5e7cc774cb6b2</sys_id>
+            <sys_created_by>admin.hkt</sys_created_by>
+            <sys_created_on>2016-10-27 09:00:13</sys_created_on>
+            <sys_id>79af9290db7e2a00494df2adbf96191e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>glide.maint</sys_updated_by>
-            <sys_updated_on>2008-03-21 16:27:25</sys_updated_on>
+            <sys_updated_by>admin.hkt</sys_updated_by>
+            <sys_updated_on>2016-10-27 09:00:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -89,7 +74,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
             <sys_created_on>2017-11-17 01:44:36</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>58a134a4db2e834099d45040cf9619c6</sys_id>
@@ -102,7 +87,7 @@
             <sys_update_name>sys_ui_list_sys_update_set_log_default_log_view</sys_update_name>
             <sys_updated_by>michelle.local</sys_updated_by>
             <sys_updated_on>2017-11-17 01:44:36</sys_updated_on>
-            <sys_user display_value="Michelle Local">df05968ddbc2a600e3be5fa0cf96196c</sys_user>
+            <sys_user display_value="">df05968ddbc2a600e3be5fa0cf96196c</sys_user>
             <view display_value="Default_log_view" name="default_log_view">d22a23ca0a0a0b5000f5f0a02ab87d43</view>
             <view_name/>
         </sys_ui_list>
