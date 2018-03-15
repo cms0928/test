@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>true</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_votu_backup_backup</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>hihi</p>]]></message>
+        <name>get_approver</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var appGroup = current.opened_by.u_change_approval_group;
+	//gs.addInfoMessage(appGroup);
+	//gs.addInfoMessage('load BR');
+	var group = new GlideRecord('sys_user_grmember');
+	group.addQuery('group.sys_id', appGroup);
+	group.query();
+	g_scratchpad.approver = '';
+	while (group.next()) {
+		//g_scratchpad.approver += group.user.last_name +' '+ group.user.first_name + '|' + group.user.name + '|';
+		g_scratchpad.approver += group.user.name +'|'+ group.user.user_name + '|';
+	}
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-06-08 09:16:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b178cecdb57b200e3be5fa0cf9619c4</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_name>get_approver</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_script_1b178cecdb57b200e3be5fa0cf9619c4</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-06-28 02:46:25</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b178cecdb57b200e3be5fa0cf9619c4"/>
+</record_update>

@@ -4,47 +4,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2d53f8c0a0a0baa26f6807cfbb3ddd5</list_id>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>dloo</sys_created_by>
-            <sys_created_on>2010-05-19 23:10:39</sys_created_on>
-            <sys_id>b2d53f930a0a0baa1b5b0282f54f922b</sys_id>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>901bd4f5db7fba00e3be5fa0cf9619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dloo</sys_updated_by>
-            <sys_updated_on>2010-05-19 23:10:39</sys_updated_on>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>description</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2d53f8c0a0a0baa26f6807cfbb3ddd5</list_id>
+            <element>assignable_by</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>dloo</sys_created_by>
-            <sys_created_on>2010-05-19 23:10:39</sys_created_on>
-            <sys_id>b2d53f950a0a0baa756dfb21a6ae25f0</sys_id>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>141bd4f5db7fba00e3be5fa0cf9619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dloo</sys_updated_by>
-            <sys_updated_on>2010-05-19 23:10:39</sys_updated_on>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>elevated_privilege</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2d53f8c0a0a0baa26f6807cfbb3ddd5</list_id>
+            <element>can_delegate</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>dloo</sys_created_by>
-            <sys_created_on>2010-05-19 23:10:39</sys_created_on>
-            <sys_id>b2d53f960a0a0baa2c460922cfd20f9b</sys_id>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>941bd4f5db7fba00e3be5fa0cf9619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dloo</sys_updated_by>
-            <sys_updated_on>2010-05-19 23:10:39</sys_updated_on>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>181bd4f5db7fba00e3be5fa0cf9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>elevated_privilege</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>981bd4f5db7fba00e3be5fa0cf9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>grantable</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>1c1bd4f5db7fba00e3be5fa0cf9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>includes_roles</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>9c1bd4f5db7fba00e3be5fa0cf9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>suffix</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5c1bd4f5db7fba00e3be5fa0cf9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-07 04:25:46</sys_created_on>
+            <sys_id>101bd4f5db7fba00e3be5fa0cf9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:25:46</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -59,7 +134,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
             <sys_created_on>2017-05-20 07:46:56</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>83cc311adbba3e00e3be5fa0cf9619f5</sys_id>

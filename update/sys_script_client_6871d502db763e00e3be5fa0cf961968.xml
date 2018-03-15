@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Changes the state field to only show the current state and the next valid state for the backup request&#13;
@@ -15,7 +15,22 @@ Adds a field message to the state field under certain conditions:&#13;
 Backup is waiting for approval</messages>
         <name>Show valid states values</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onLoad(){
+	//var current = g_form.getIntValue('state');
+	//g_form.addInfoMessage(current);
+	//var next = current+2;
+	//g_form.addInfoMessage(new GwtMessage().getMessage("next is {0}", next));
+	
+	//for (a=0; next <= a; next++){
+		//g_form.removeOption('state', next);
+	//}
+	
+	
+	
+}
+
+
+/*function onLoad() {
 	var ga = new GlideAjax('ChangeRequestStateHandlerAjax');
 	ga.addParam('sysparm_name','ajaxFunction_getNextStateValues');
 	ga.addParam('sysparm_change_sys_id',g_form.getUniqueValue());
@@ -58,15 +73,16 @@ function nextValidValue(nextStateValues) {
 	
 	if (g_form.getValue('state') == "-4" || g_form.getValue('state') == "-3" )
 		g_form.showFieldMsg("state", getMessage("Change is waiting for approval"));
-}]]></script>
+}
+*/]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 10:02:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6871d502db763e00e3be5fa0cf961968</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Show valid states values</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -75,7 +91,7 @@ function nextValidValue(nextStateValues) {
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_6871d502db763e00e3be5fa0cf961968</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-20 08:41:39</sys_updated_on>
+        <sys_updated_on>2017-06-20 08:13:58</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
