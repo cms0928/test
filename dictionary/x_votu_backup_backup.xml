@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="57" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="task" label="backup" max_length="40" name="x_votu_backup_backup" sizeclass="42" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Backup Request Type" max_length="40" name="category" type="string"/>
         <element label="on hold" max_length="40" name="on_hold" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Action" max_length="40" name="u_action" type="string">
+            <choice>
+                <element label="Fallback" sequence="0" value="fallback"/>
+                <element label="Endorse" sequence="1" value="endorse"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Please Select" label="Backup Request Type" max_length="40" name="u_backup_type" read_only="true" type="string">
             <choice>
                 <element label="Please Select" sequence="0" value="Please Select"/>
@@ -10,8 +17,9 @@
                 <element label="Add Server in to existing Backup Cycle Request" sequence="3" value="new_backup"/>
             </choice>
         </element>
+        <element label="Backup Coordinator" max_length="32" name="u_bc" read_only="true" reference="sys_user" reference_qual="javascript: new global.GenUserListofGroup().getGroupMember(backup-elec-approval-group);" type="reference" use_reference_qualifier="advanced"/>
         <element label="Fallback" max_length="40" name="u_boolean_2" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="approval" hint="Choose your supervisor to approve this request" label="Choose Line Approver" max_length="40" name="u_choose_approver" type="string">
+        <element choice="1" choice_field="approval" hint="Choose your supervisor to approve this request" label="Choose Line Approver" max_length="40" name="u_choose_approver" reference="sys_user" reference_qual="javascript: new global.GenUserListofGroup().getGroupMember(current.opened_by.u_change_approval_group);" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="u_close_code" type="string">
@@ -23,7 +31,16 @@
             </choice>
         </element>
         <element label="Effective date &amp; time" max_length="40" name="u_effect_date" type="glide_date"/>
-        <element label="Expiry Date" max_length="40" name="u_expiry_date" type="glide_date"/>
+        <element label="Expiry Date (Max. 7 days)" max_length="40" name="u_expiry7d" type="glide_date"/>
+        <element label="Expiry Date (Max. 7 years)" max_length="40" name="u_expiry_date" type="glide_date"/>
+        <element default="0" label="Fallback Count" max_length="40" name="u_fallback_count" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Fallback Reason" max_length="400" name="u_fallback_reason" type="string"/>
+        <element label="Actual Start Date" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="Actual End Date" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact" mandatory="true" max_length="400" name="u_impact" type="string"/>
+        <element label="Operator" max_length="32" name="u_operator_1" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Operator" max_length="32" name="u_operator_2" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Production Server" max_length="40" name="u_prod" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Production / UAT" max_length="40" name="u_prod_uat" type="string">
             <choice>
                 <element label="Production" sequence="0" value="prod"/>
@@ -31,27 +48,34 @@
             </choice>
         </element>
         <element dependent="u_choose_approver" dependent_on_field="u_choose_approver" label="Selected Approver" max_length="32" name="u_reference_2" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element label="Assign to" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+        <element choice="1" label="Assign to" max_length="32" name="u_reference_3" reference="sys_user" reference_qual="roles=x_votu_backup.BackupRequest_Admin^EQ" reference_qual_condition="roles=x_votu_backup.BackupRequest_Admin^EQ" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="References (C.C.)" max_length="4000" name="u_refrence" reference="sys_user" reference_qual="javascript: new global.GenUserListofGroup().getGroupMember(current.u_requester_team);" type="glide_list" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="400" name="u_remarks" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;var abc = current.opened_by.u_team;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return abc;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript: new BackupAutoFill().requesterTeam(current.opened_by);" label="Requester Team" max_length="32" name="u_requester_team" reference="sys_user_group" type="reference"/>
         <element label="Planed End Date" max_length="40" name="u_schedule_end" type="glide_date_time"/>
         <element label="Planed Start Date" max_length="40" name="u_schedule_start" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="-6" label="State" max_length="40" name="u_state" read_only="true" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="-6" label="State" max_length="40" name="u_state" read_only="true" type="string">
             <choice>
                 <element label="New" sequence="0" value="-6"/>
                 <element label="Assess" sequence="1" value="-5"/>
                 <element label="Authorize" sequence="2" value="-4"/>
                 <element label="Assigned" sequence="3" value="-3"/>
-                <element label="Scheduled" sequence="4" value="-2"/>
-                <element label="Implement" sequence="5" value="-1"/>
-                <element label="Complete" sequence="6" value="0"/>
-                <element label="Closed" sequence="7" value="1"/>
+                <element label="Endorsed" sequence="4" value="-32"/>
+                <element label="Scheduled" sequence="5" value="-2"/>
+                <element label="Implemented" sequence="6" value="-1"/>
+                <element label="Completed" sequence="7" value="0"/>
+                <element label="Closed" sequence="8" value="1"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Source Path" max_length="400" name="u_string_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Machine Name" max_length="40" name="u_string_2" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="400" name="u_string_5" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="IP address" max_length="40" name="u_string_6" type="string"/>
-        <element label="Target Backup Snapshot" max_length="40" name="u_target_backup_snapshot" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Machine Name" max_length="300" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" mandatory="true" max_length="400" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP address" max_length="1000" name="u_string_6" type="string"/>
+        <element label="Target Take Snapshot Date and Time" max_length="40" name="u_target_backup_snapshot" type="glide_date_time"/>
         <element label="Target Date" max_length="40" name="u_target_date" type="glide_date"/>
     </element>
 </database>

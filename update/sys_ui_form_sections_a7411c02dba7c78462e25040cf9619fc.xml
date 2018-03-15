@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="a7411c02dba7c78462e25040cf9619fc" sys_domain="global" table="x_votu_backup_backup" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b411c02dba7c78462e25040cf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_votu_backup_backup" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a7411c02dba7c78462e25040cf9619fc</sys_ui_form>
+            <sys_ui_section caption="System Backup Request" display_value="System Backup Request" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">20d39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f411c02dba7c78462e25040cf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_votu_backup_backup" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a7411c02dba7c78462e25040cf9619fc</sys_ui_form>
+            <sys_ui_section caption="Implement" display_value="Implement" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">24d39e65db238f0099d45040cf96192e</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7415c02dba7c78462e25040cf96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_votu_backup_backup" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a7411c02dba7c78462e25040cf9619fc</sys_ui_form>
+            <sys_ui_section caption="Close Information" display_value="Close Information" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">68d39e65db238f0099d45040cf96192e</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c515c02dba7c78462e25040cf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_votu_backup_backup" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a7411c02dba7c78462e25040cf9619fc</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">93136d80dbe30f0099d45040cf9619d0</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84515c02dba7c78462e25040cf961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_votu_backup_backup" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a7411c02dba7c78462e25040cf9619fc</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">97426980dbe30f0099d45040cf96199f</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44515c02dba7c78462e25040cf961996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_votu_backup_backup" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a7411c02dba7c78462e25040cf9619fc</sys_ui_form>
+            <sys_ui_section caption="Description and Impact" display_value="Description and Impact" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a8d39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8515c02dba7c78462e25040cf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_votu_backup_backup" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">a7411c02dba7c78462e25040cf9619fc</sys_ui_form>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_votu_backup_backup" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">ecd39e65db238f0099d45040cf96192d</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_votu_backup_backup</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-10 08:17:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7411c02dba7c78462e25040cf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_votu_backup_backup</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a7411c02dba7c78462e25040cf9619fc</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-10 08:17:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Approval" name="approval">0cebef090a0006d40188d968934d3e9a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

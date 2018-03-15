@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-03-14 02:32:06">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_3_across">f6df4af10a0a0b120070a45fa26bf4f3</layout>
+        <order>100</order>
+        <read_roles>x_votu_backup.operator</read_roles>
+        <roles>admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-08-24 03:42:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a99d1b09db344b40e3be5fa0cf96198a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Operator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_portal_page_a99d1b09db344b40e3be5fa0cf96198a</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-09-01 11:13:40</sys_updated_on>
+        <title>Operator</title>
+        <user/>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="Operator">a99d1b09db344b40e3be5fa0cf96198a</page>
+                <summary/>
+                <sys_created_by>michelle.local</sys_created_by>
+                <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                <sys_id>50369451dbb44b40e3be5fa0cf9619cc</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michelle.local</sys_updated_by>
+                <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>10369451dbb44b40e3be5fa0cf9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>14369451dbb44b40e3be5fa0cf9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>18369451dbb44b40e3be5fa0cf9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer_id</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>50369451dbb44b40e3be5fa0cf9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a066bb690a0a0aa300d40d0cce7ed94f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>54369451dbb44b40e3be5fa0cf9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderJavascript</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>58369451dbb44b40e3be5fa0cf9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a99d1b09db344b40e3be5fa0cf96198a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>5c369451dbb44b40e3be5fa0cf9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>90369451dbb44b40e3be5fa0cf9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>94369451dbb44b40e3be5fa0cf9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>98369451dbb44b40e3be5fa0cf9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>Knowledge Search</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>9c369451dbb44b40e3be5fa0cf9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d0369451dbb44b40e3be5fa0cf9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d4369451dbb44b40e3be5fa0cf9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>knowledge_search</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">50369451dbb44b40e3be5fa0cf9619cc</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d8369451dbb44b40e3be5fa0cf9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="Operator">a99d1b09db344b40e3be5fa0cf96198a</page>
+                <summary/>
+                <sys_created_by>michelle.local</sys_created_by>
+                <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                <sys_id>54369451dbb44b40e3be5fa0cf9619d1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michelle.local</sys_updated_by>
+                <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>14369451dbb44b40e3be5fa0cf9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>18369451dbb44b40e3be5fa0cf9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>General</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>1c369451dbb44b40e3be5fa0cf9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>50369451dbb44b40e3be5fa0cf9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>54369451dbb44b40e3be5fa0cf9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>58369451dbb44b40e3be5fa0cf9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>com.glideapp.knowledge.RenderKnowledge</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>90369451dbb44b40e3be5fa0cf9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>94369451dbb44b40e3be5fa0cf9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>98369451dbb44b40e3be5fa0cf9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a99d1b09db344b40e3be5fa0cf96198a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>9c369451dbb44b40e3be5fa0cf9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>150</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>topic</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d4369451dbb44b40e3be5fa0cf9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>General</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d8369451dbb44b40e3be5fa0cf9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">54369451dbb44b40e3be5fa0cf9619d1</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>dc369451dbb44b40e3be5fa0cf9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>12pt</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>2</offset>
+                <page display_value="Operator">a99d1b09db344b40e3be5fa0cf96198a</page>
+                <summary/>
+                <sys_created_by>michelle.local</sys_created_by>
+                <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                <sys_id>58369451dbb44b40e3be5fa0cf9619d6</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michelle.local</sys_updated_by>
+                <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>10369451dbb44b40e3be5fa0cf9619d7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>18369451dbb44b40e3be5fa0cf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>1c369451dbb44b40e3be5fa0cf9619d7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>Applications</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>54369451dbb44b40e3be5fa0cf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>100</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>58369451dbb44b40e3be5fa0cf9619d7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>5c369451dbb44b40e3be5fa0cf9619d6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>com.glideapp.knowledge.RenderKnowledge</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>90369451dbb44b40e3be5fa0cf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>94369451dbb44b40e3be5fa0cf9619d7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>98369451dbb44b40e3be5fa0cf9619d6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>9c369451dbb44b40e3be5fa0cf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a99d1b09db344b40e3be5fa0cf96198a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d0369451dbb44b40e3be5fa0cf9619d7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>12pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>topic</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d8369451dbb44b40e3be5fa0cf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>Applications</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">58369451dbb44b40e3be5fa0cf9619d6</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>dc369451dbb44b40e3be5fa0cf9619d7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Operator">a99d1b09db344b40e3be5fa0cf96198a</page>
+                <summary/>
+                <sys_created_by>michelle.local</sys_created_by>
+                <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                <sys_id>5c369451dbb44b40e3be5fa0cf9619cf</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michelle.local</sys_updated_by>
+                <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>10369451dbb44b40e3be5fa0cf9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a99d1b09db344b40e3be5fa0cf96198a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>14369451dbb44b40e3be5fa0cf9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>2546d451dbb44b40e3be5fa0cf961962</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>2946d451dbb44b40e3be5fa0cf961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>50369451dbb44b40e3be5fa0cf9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>5c369451dbb44b40e3be5fa0cf9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>Online Form waiting your response</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>6146d451dbb44b40e3be5fa0cf961962</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>6546d451dbb44b40e3be5fa0cf961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>98369451dbb44b40e3be5fa0cf9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>9c369451dbb44b40e3be5fa0cf9619cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>013caf41db744b40e3be5fa0cf9619a7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>a146d451dbb44b40e3be5fa0cf961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>ad46d451dbb44b40e3be5fa0cf961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value>300</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d4369451dbb44b40e3be5fa0cf9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>e1465051dbb44b40e3be5fa0cf961935</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>e946d451dbb44b40e3be5fa0cf961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">5c369451dbb44b40e3be5fa0cf9619cf</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:40</sys_created_on>
+                        <sys_id>ed46d451dbb44b40e3be5fa0cf961960</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:40</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Operator">a99d1b09db344b40e3be5fa0cf96198a</page>
+                <summary/>
+                <sys_created_by>michelle.local</sys_created_by>
+                <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                <sys_id>9c369451dbb44b40e3be5fa0cf9619ce</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michelle.local</sys_updated_by>
+                <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>18369451dbb44b40e3be5fa0cf9619cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a99d1b09db344b40e3be5fa0cf96198a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>35365451dbb44b40e3be5fa0cf961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>39365451dbb44b40e3be5fa0cf96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>54369451dbb44b40e3be5fa0cf9619cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>News</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>71365451dbb44b40e3be5fa0cf961980</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:29</sys_updated_on>
+                        <value>200</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>75365451dbb44b40e3be5fa0cf96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>topic</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>90369451dbb44b40e3be5fa0cf9619cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>News</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>b1365451dbb44b40e3be5fa0cf96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>bd365451dbb44b40e3be5fa0cf96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>dc369451dbb44b40e3be5fa0cf9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>com.glideapp.knowledge.RenderKnowledge</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>f5365451dbb44b40e3be5fa0cf961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>f9365451dbb44b40e3be5fa0cf96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">9c369451dbb44b40e3be5fa0cf9619ce</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:24</sys_created_on>
+                        <sys_id>fd365451dbb44b40e3be5fa0cf96197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>3</offset>
+                <page display_value="Operator">a99d1b09db344b40e3be5fa0cf96198a</page>
+                <summary/>
+                <sys_created_by>michelle.local</sys_created_by>
+                <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                <sys_id>d0369451dbb44b40e3be5fa0cf9619d9</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michelle.local</sys_updated_by>
+                <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>10369451dbb44b40e3be5fa0cf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>14369451dbb44b40e3be5fa0cf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>18369451dbb44b40e3be5fa0cf9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>1c369451dbb44b40e3be5fa0cf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>022ec45ddb744b40e3be5fa0cf9619b3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>54369451dbb44b40e3be5fa0cf9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>58369451dbb44b40e3be5fa0cf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>Contact us</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>5c369451dbb44b40e3be5fa0cf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>12pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>90369451dbb44b40e3be5fa0cf9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>94369451dbb44b40e3be5fa0cf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>content_block_static</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>98369451dbb44b40e3be5fa0cf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d0369451dbb44b40e3be5fa0cf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d4369451dbb44b40e3be5fa0cf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d8369451dbb44b40e3be5fa0cf9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a99d1b09db344b40e3be5fa0cf96198a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">d0369451dbb44b40e3be5fa0cf9619d9</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>dc369451dbb44b40e3be5fa0cf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>1</offset>
+                <page display_value="Operator">a99d1b09db344b40e3be5fa0cf96198a</page>
+                <summary/>
+                <sys_created_by>michelle.local</sys_created_by>
+                <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                <sys_id>dc369451dbb44b40e3be5fa0cf9619d3</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michelle.local</sys_updated_by>
+                <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>10369451dbb44b40e3be5fa0cf9619d4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>com.glideapp.knowledge.RenderKnowledge</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>14369451dbb44b40e3be5fa0cf9619d6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>a99d1b09db344b40e3be5fa0cf96198a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>18369451dbb44b40e3be5fa0cf9619d5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>1c369451dbb44b40e3be5fa0cf9619d4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>topic</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>50369451dbb44b40e3be5fa0cf9619d6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>Email</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>54369451dbb44b40e3be5fa0cf9619d5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>58369451dbb44b40e3be5fa0cf9619d4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>12pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>90369451dbb44b40e3be5fa0cf9619d5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>Email</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>94369451dbb44b40e3be5fa0cf9619d4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>9c369451dbb44b40e3be5fa0cf9619d5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d0369451dbb44b40e3be5fa0cf9619d4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>d8369451dbb44b40e3be5fa0cf9619d5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-08-24 15:50:18">dc369451dbb44b40e3be5fa0cf9619d3</portal_section>
+                        <sys_created_by>michelle.local</sys_created_by>
+                        <sys_created_on>2017-08-24 07:50:18</sys_created_on>
+                        <sys_id>dc369451dbb44b40e3be5fa0cf9619d4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michelle.local</sys_updated_by>
+                        <sys_updated_on>2017-08-24 07:50:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

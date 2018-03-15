@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -11,47 +11,56 @@
         <name>validate target date before today</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-			
-	var targetDate = g_form.getValue("u_target_date");
-	g_form.addInfoMessage(targetDate);
-	
-	var ajax = new GlideAjax('TodayDateTimeAjax');
-	ajax.addParam('sysparm_name', 'nowDateTime');
-	ajax.getXML(getTodayDate);
-	
-	function getTodayDate(result){
-		var todayDate = result.responseXML.documentElement.getAttribute("answer");
-
-
-      //alert(todayDate);
-	}
-	var test = todayDate;
-var targetDateMs = getDateFromFormat(targetDate, format);
-	
-	//if (targetDateMs > todayDate)
-		//return true;
-		
-		if (startDateMs === 0){
-			g_form.addErrorMessage("jiji");
+	var state = g_form.getValue('u_state');
+	if (state == '-5'||state =='-6'){
+		var check = g_form.getValue('u_backup_type');
+		if (check == 'keep_backup'){
+			var targetDate = g_form.getValue('u_target_date');
+			if (targetDate !=''){
+				var expiryDate = g_form.getValue("u_expiry_date");
+				var todayDate = g_scratchpad.today;
+				var format = g_user_date_format;
+				
+				var targetDateMs = getDateFromFormat(targetDate, format);
+				var limitDate = targetDateMs +(7*1000*60*60*24*365.24);
+				var expiryDateMs = getDateFromFormat(expiryDate, format);
+				//g_form.addInfoMessage(targetDateMs);
+				//g_form.addInfoMessage(expiryDateMs);
+				//g_form.addInfoMessage(limitDate);
+				if ((expiryDateMs > todayDate)&&(limitDate > expiryDateMs)&&(targetDateMs < expiryDateMs)){
+		g_form.hideFieldMsg('u_expiry_date', true);
+		g_form.hideFieldMsg('u_target_date', true);
+		return true;
+	}	
+				if (targetDateMs === 0) {
+					g_form.showFieldMsg('u_target_date', new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_target_date")));
+					return false;
+				}
+				if (expiryDate!='' && expiryDateMs < todayDate){
+					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} must be after Today", g_form.getLabelOf("u_expiry_date")));
+					return false;
+				}
+				
+				if (expiryDate!='' && limitDate < expiryDateMs) {
+					g_form.showFieldMsg('u_expiry_date', new GwtMessage().getMessage("{0} must be within 7 years from {1}", g_form.getLabelOf("u_expiry_date"), g_form.getLabelOf("u_target_date")));
+					return false;
+				}
+				if (expiryDate!='' && targetDateMs >= expiryDateMs) {
+					g_form.showFieldMsg('u_target_date',new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_expiry_date"), g_form.getLabelOf("u_target_date")));
+				}
+				
+			}
 		}
-		
-		
-		
-//if (isLoading || newValue === '') {
-			//return;
-		//}
-		
-		//Type appropriate comment here, and begin script below
-		
-	}]]></script>
+	}
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-07-11 01:51:25</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7e665043db333e00e3be5fa0cf9619a7</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>validate target date before today</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -60,7 +69,7 @@ var targetDateMs = getDateFromFormat(targetDate, format);
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_7e665043db333e00e3be5fa0cf9619a7</sys_update_name>
         <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-07-13 10:37:04</sys_updated_on>
+        <sys_updated_on>2018-01-09 08:21:17</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

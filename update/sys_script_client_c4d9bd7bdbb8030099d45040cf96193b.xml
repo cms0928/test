@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_action</field>
+        <global>true</global>
+        <messages/>
+        <name>require fall back reason</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (newValue == 'fallback') {
+	   g_form.setDisplay('u_fallback_reason', true);
+	   g_form.setMandatory('u_fallback_reason',true);
+      return;
+   }else{
+	   g_form.setMandatory('u_fallback_reason',false);
+	   g_form.setDisplay('u_fallback_reason', false);
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-09-01 09:32:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4d9bd7bdbb8030099d45040cf96193b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>require fall back reason</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_script_client_c4d9bd7bdbb8030099d45040cf96193b</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-09-12 10:54:09</sys_updated_on>
+        <table>x_votu_backup_backup</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

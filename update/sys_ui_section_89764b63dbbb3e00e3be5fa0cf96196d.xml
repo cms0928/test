@@ -2,74 +2,60 @@
 <record_update>
     <sys_ui_section caption="Schedule" section_id="89764b63dbbb3e00e3be5fa0cf96196d" sys_domain="global" table="x_votu_backup_backup" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>0</position>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-07-13 11:18:26</sys_created_on>
-            <sys_id>630370ffdbfb3e00e3be5fa0cf96197f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_votu_backup_backup" sys_domain="global" view="Default view">89764b63dbbb3e00e3be5fa0cf96196d</sys_ui_section>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-07-13 11:18:26</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_schedule_start</element>
-            <position>1</position>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-07-13 11:18:26</sys_created_on>
-            <sys_id>e30370ffdbfb3e00e3be5fa0cf96197f</sys_id>
+            <position>0</position>
+            <sys_created_by>mscheung</sys_created_by>
+            <sys_created_on>2018-01-11 01:33:45</sys_created_on>
+            <sys_id>519e3302dbab8b8462e25040cf961936</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Schedule" display_value="Schedule" name="x_votu_backup_backup" sys_domain="global" view="Default view">89764b63dbbb3e00e3be5fa0cf96196d</sys_ui_section>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-07-13 11:18:26</sys_updated_on>
+            <sys_updated_by>mscheung</sys_updated_by>
+            <sys_updated_on>2018-01-11 01:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_schedule_end</element>
-            <position>2</position>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-07-13 11:18:26</sys_created_on>
-            <sys_id>670370ffdbfb3e00e3be5fa0cf96197f</sys_id>
+            <position>1</position>
+            <sys_created_by>mscheung</sys_created_by>
+            <sys_created_on>2018-01-11 01:33:45</sys_created_on>
+            <sys_id>d19e3302dbab8b8462e25040cf961936</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Schedule" display_value="Schedule" name="x_votu_backup_backup" sys_domain="global" view="Default view">89764b63dbbb3e00e3be5fa0cf96196d</sys_ui_section>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-07-13 11:18:26</sys_updated_on>
+            <sys_updated_by>mscheung</sys_updated_by>
+            <sys_updated_on>2018-01-11 01:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-07-13 11:18:26</sys_created_on>
-            <sys_id>e70370ffdbfb3e00e3be5fa0cf96197f</sys_id>
+            <position>2</position>
+            <sys_created_by>mscheung</sys_created_by>
+            <sys_created_on>2018-01-11 01:33:45</sys_created_on>
+            <sys_id>559e3302dbab8b8462e25040cf961936</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Schedule" display_value="Schedule" name="x_votu_backup_backup" sys_domain="global" view="Default view">89764b63dbbb3e00e3be5fa0cf96196d</sys_ui_section>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-07-13 11:18:26</sys_updated_on>
+            <sys_updated_by>mscheung</sys_updated_by>
+            <sys_updated_on>2018-01-11 01:33:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>4</position>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-07-13 11:18:26</sys_created_on>
-            <sys_id>6b0370ffdbfb3e00e3be5fa0cf96197f</sys_id>
+            <element>u_operator_1</element>
+            <position>3</position>
+            <sys_created_by>mscheung</sys_created_by>
+            <sys_created_on>2018-01-11 01:33:45</sys_created_on>
+            <sys_id>d59e3302dbab8b8462e25040cf961936</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Schedule" display_value="Schedule" name="x_votu_backup_backup" sys_domain="global" view="Default view">89764b63dbbb3e00e3be5fa0cf96196d</sys_ui_section>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-07-13 11:18:26</sys_updated_on>
+            <sys_updated_by>mscheung</sys_updated_by>
+            <sys_updated_on>2018-01-11 01:33:45</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Schedule</caption>
@@ -79,11 +65,11 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
             <sys_created_on>2017-07-13 03:23:57</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>89764b63dbbb3e00e3be5fa0cf96196d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>Schedule</sys_name>
             <sys_overrides/>
             <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -91,8 +77,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
             <sys_update_name>sys_ui_section_89764b63dbbb3e00e3be5fa0cf96196d</sys_update_name>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-07-13 03:23:57</sys_updated_on>
+            <sys_updated_by>mscheung</sys_updated_by>
+            <sys_updated_on>2018-01-11 01:33:45</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

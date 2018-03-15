@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_close_code</field>
+        <global>true</global>
+        <messages/>
+        <name>request close notes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var checkCloseNotes = g_form.getValue('u_close_code');
+   if (checkCloseNotes === 'issues'||checkCloseNotes === 'Unsuccessful'||checkCloseNotes === 'Canceled') {
+      
+//g_form.addErrorMessage('hihi');
+		   g_form.setMandatory('close_notes', true);
+		  
+   }
+	if (checkCloseNotes === 'successful') {
+      
+
+		   g_form.setMandatory('close_notes', false);
+
+//g_form.addErrorMessage('hihi2');
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-08-15 07:42:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>587cb51adb288740e3be5fa0cf961959</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>request close notes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_script_client_587cb51adb288740e3be5fa0cf961959</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-11-20 12:19:48</sys_updated_on>
+        <table>x_votu_backup_backup</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

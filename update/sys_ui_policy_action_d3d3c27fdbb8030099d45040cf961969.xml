@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_schedule_end</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-09-01 10:14:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d3d3c27fdbb8030099d45040cf961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_schedule_end</sys_name>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d3d3c27fdbb8030099d45040cf961969</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-09-01 10:14:27</sys_updated_on>
+        <table>x_votu_backup_backup</table>
+        <ui_policy display_value="set schedule mandatory">45a3827fdbb8030099d45040cf961916</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

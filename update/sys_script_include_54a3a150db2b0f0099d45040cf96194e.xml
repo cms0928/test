@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_votu_backup.checkApproval</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>checkApproval</name>
+        <script><![CDATA[var checkApproval = Class.create();
+checkApproval.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	moveToAssess: function(gr){
+		//current.u_state = '-5';
+		var validate = 'true';
+		main();
+		
+	function checkExpiry7d(){
+	
+	var expiryDate = new GlideDateTime(current.u_expiry7d);
+	var targetDate = new GlideDateTime(current.u_target_backup_snapshot);
+		var dateTime = new GlideDateTime();
+		var today = dateTime.getLocalDate();
+		var todayDate = today.getNumericValue();
+		var expiryDateMs = expiryDate.getNumericValue();
+		var targetDateMs = targetDate.getNumericValue();
+	/*
+	//var todayDate = g_scratchpad.today;
+	var format2 = g_user_date_format;
+	var format1 = g_user_date_time_format;
+	
+	
+	var expiryDateMs = getDateFromFormat(expiryDate, format2);
+	var targetDateMs = getDateFromFormat(targetDate, format1);
+	
+	*/	
+	var limitDate = targetDateMs +(8*1000*60*60*24);
+	//g_form.addInfoMessage(expiryDateMs);
+	//g_form.addInfoMessage(limitDate);
+		//alert(limitDate);
+
+	if ((expiryDateMs === 0)||(expiryDateMs <= todayDate) || (limitDate <= expiryDateMs)){
+		//alert('The date of Expiry Date must be within 7 years from now');
+		//gr.flash("u_expiry7d", "#ffff00", 10);
+		//validate = 'false';
+		//gr.addErrorMessage(validate);
+	}
+		
+	if (targetDateMs >= expiryDateMs){
+		//alert('The date of Target Backup Snapshot must be after or on today');
+		//gr.flash("u_target_backup_snapshot", "#ffff00", 10);
+		//gr.flash("u_expiry7d", "#ffff00", 10);
+		//validate = 'false';
+	}
+}
+
+function checkApproval(){
+	var checkApprover = gr.getValue('u_choose_approver');
+	if (checkApprover !=''){
+	}else{
+		//gr.flash("u_choose_approver", "#ffff00", 10);
+		validate = 'false';
+	}
+}
+function checkValidate(){
+	//g_form.addErrorMessage(validate);
+	if(validate =='true'){
+		gr.setValue("u_state", "-5");
+		//g_form.submit();
+		//alert('hi3');
+		gs.global.print(validate);
+	}else{
+		gr.addErrorMessage('Correct the highlighted fields to continue request approval');
+		validate = 'true';
+		
+	}
+	
+}
+		
+		
+		
+		function main(){
+		
+		checkExpiry7d();
+		checkApproval();
+		checkValidate();
+		
+	}
+		
+	},
+    type: 'checkApproval'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2018-01-05 03:49:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>54a3a150db2b0f0099d45040cf96194e</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>checkApproval</sys_name>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_script_include_54a3a150db2b0f0099d45040cf96194e</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2018-01-05 08:08:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

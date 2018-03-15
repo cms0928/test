@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="ITSD online Form Matcher" max_length="40" name="x_votu_backup_itsd_online_form_matcher" type="collection">
+        <element label="Requester" max_length="32" name="u_requester" reference="sys_user" type="reference"/>
+        <element label="Requester Team" max_length="32" name="u_requester_team" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="u_requester_team"/>
+        </index>
+        <index name="index2">
+            <element name="u_requester"/>
+        </index>
+    </element>
+</database>
