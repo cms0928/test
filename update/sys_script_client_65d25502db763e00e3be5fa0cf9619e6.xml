@@ -5,14 +5,14 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>active</field>
+        <field>u_schedule_start</field>
         <global>true</global>
         <messages/>
-        <name>Planned Start/End Date Validation</name>
+        <name>Planned Start Validation</name>
         <order/>
-        <script><![CDATA[function onSubmit() {
-    var startDate = g_form.getValue("u_glide_date_time_13");
-    var endDate = g_form.getValue("u_glide_date_time_14");
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    var startDate = g_form.getValue("u_schedule_start");
+    var endDate = g_form.getValue("u_schedule_end");
     var format = g_user_date_time_format;
 
     if (startDate === "" || endDate === "")
@@ -25,21 +25,24 @@
 	if (startDateMs < endDateMs)
 		return true;
 
-	g_form.clearMessages();
+	g_form.hideFieldMsg('u_schedule_start', true);
+	g_form.hideFieldMsg('u_schedule_end', true);
 	
 	// 0 from "getDateFormat" means an invalid date string was passed to it
-	if (startDateMs === 0 || endDateMs === 0) {
-        if (startDate === 0)
-            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_glide_date_time_13")));
+	//if (startDateMs === 0 || endDateMs === 0) {
+        //if (startDate === 0)
+            //g_form.showFieldMsg('u_schedule_start',new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_schedule_start")));
 
-        if (endDate === 0)
-            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_glide_date_time_14")));
+        if (endDate === 0){
+			g_form.hideFieldMsg('u_schedule_end', true);
+            g_form.showFieldMsg('u_schedule_start',new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_schedule_end")));
 
         return false;
     }
 
 	if (startDateMs > endDateMs) {
-        g_form.addErrorMessage(new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_glide_date_time_14"), g_form.getLabelOf("u_glide_date_time_13")));
+		g_form.hideFieldMsg('u_schedule_end', true);
+        g_form.showFieldMsg('u_schedule_start',new GwtMessage().getMessage("{1} must be after {0}", g_form.getLabelOf("u_schedule_start"), g_form.getLabelOf("u_schedule_end")));
 
         return false;
 
@@ -52,18 +55,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65d25502db763e00e3be5fa0cf9619e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Planned Start/End Date Validation</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Planned Start Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_65d25502db763e00e3be5fa0cf9619e6</sys_update_name>
-        <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-05-19 10:27:06</sys_updated_on>
+        <sys_updated_by>mscheung</sys_updated_by>
+        <sys_updated_on>2018-03-01 01:39:05</sys_updated_on>
         <table>x_votu_backup_backup</table>
-        <type>onSubmit</type>
+        <type>onChange</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>

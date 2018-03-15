@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_close_code" table="x_votu_backup_backup" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>implement successful</label>
+            <language>en</language>
+            <name>x_votu_backup_backup</name>
+            <sequence>0</sequence>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-13 03:23:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1764b63dbbb3e00e3be5fa0cf961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-13 03:23:59</sys_updated_on>
+            <value>successful</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Successful with issues</label>
+            <language>en</language>
+            <name>x_votu_backup_backup</name>
+            <sequence>1</sequence>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-13 03:23:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed764b63dbbb3e00e3be5fa0cf961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-13 03:23:59</sys_updated_on>
+            <value>issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsuccessful</label>
+            <language>en</language>
+            <name>x_votu_backup_backup</name>
+            <sequence>2</sequence>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-13 03:23:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9764b63dbbb3e00e3be5fa0cf961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-13 03:23:59</sys_updated_on>
+            <value>Unsuccessful</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request Canceled</label>
+            <language>en</language>
+            <name>x_votu_backup_backup</name>
+            <sequence>3</sequence>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-13 03:23:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d764b63dbbb3e00e3be5fa0cf9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-13 03:23:59</sys_updated_on>
+            <value>Canceled</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_close_code</element>
+            <name>x_votu_backup_backup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-07-13 03:23:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c8415402dba7c78462e25040cf9619a1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_close_code</sys_name>
+            <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+            <sys_update_name>sys_choice_x_votu_backup_backup_u_close_code</sys_update_name>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-07-13 03:23:59</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

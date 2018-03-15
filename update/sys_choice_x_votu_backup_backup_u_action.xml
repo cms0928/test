@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_action" table="x_votu_backup_backup" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fallback</label>
+            <language>en</language>
+            <name>x_votu_backup_backup</name>
+            <sequence>0</sequence>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-08-15 03:56:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>154a019adbe48740e3be5fa0cf961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-08-15 03:56:04</sys_updated_on>
+            <value>fallback</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Endorse</label>
+            <language>en</language>
+            <name>x_votu_backup_backup</name>
+            <sequence>1</sequence>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-08-15 03:56:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>914a019adbe48740e3be5fa0cf961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-08-15 03:56:04</sys_updated_on>
+            <value>endorse</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_action</element>
+            <name>x_votu_backup_backup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>michelle.local</sys_created_by>
+            <sys_created_on>2017-08-15 03:56:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b7315402dba7c78462e25040cf961908</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_action</sys_name>
+            <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+            <sys_update_name>sys_choice_x_votu_backup_backup_u_action</sys_update_name>
+            <sys_updated_by>michelle.local</sys_updated_by>
+            <sys_updated_on>2017-08-15 03:56:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

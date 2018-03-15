@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
             <sys_created_on>2017-05-19 08:36:27</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>7a8ef80adb363e00e3be5fa0cf96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Requester</sys_name>

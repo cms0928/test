@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="ITSD Online From">85e83446db363e00e3be5fa0cf9619a2</application>
+        <application display_value="ITSD Online Form">85e83446db363e00e3be5fa0cf9619a2</application>
         <filter/>
         <name>Backup Request</name>
         <order/>
@@ -12,7 +12,7 @@
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 08:11:46</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8de83446db363e00e3be5fa0cf9619a2</sys_id>

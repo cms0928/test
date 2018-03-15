@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_action</field>
+        <global>true</global>
+        <messages/>
+        <name>readonly for requester</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var requester = g_form.getValue('opened_by');
+	var user = g_scratchpad.user;
+	
+	//g_form.addInfoMessage(requester);
+	if(requester == user){
+		g_form.addErrorMessage('hihi');
+		//g_form.setVisible('u_action', false);
+		g_form.setDisabled('u_action', true);
+		g_form.setReadOnly('u_reference_3', true);
+		g_form.setReadOnly('u_action', true);
+	}
+	//Type appropriate comment here, and begin script below
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-08-15 10:32:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20042e16db688740e3be5fa0cf9619d7</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>readonly for requester</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_script_client_20042e16db688740e3be5fa0cf9619d7</sys_update_name>
+        <sys_updated_by>michelle.local</sys_updated_by>
+        <sys_updated_on>2017-08-16 07:02:50</sys_updated_on>
+        <table>x_votu_backup_backup</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

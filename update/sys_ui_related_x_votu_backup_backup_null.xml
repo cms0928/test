@@ -3,87 +3,17 @@
     <sys_ui_related sys_domain="global" table="x_votu_backup_backup" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="backup - Default view" name="x_votu_backup_backup" related_list="NULL" sys_domain="global" view="Default view">bec4c58adb363e00e3be5fa0cf961987</list_id>
+            <list_id display_value="backup - Default view" name="x_votu_backup_backup" related_list="NULL" sys_domain="global" view="Default view">6dc53cc7db24c740e3be5fa0cf961948</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>task_ci.task</related_list>
+            <related_list/>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-05-19 09:03:46</sys_created_on>
-            <sys_id>f2c4c58adb363e00e3be5fa0cf961988</sys_id>
+            <sys_created_on>2017-08-17 10:21:57</sys_created_on>
+            <sys_id>a1c53cc7db24c740e3be5fa0cf961949</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-05-19 09:03:46</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="backup - Default view" name="x_votu_backup_backup" related_list="NULL" sys_domain="global" view="Default view">bec4c58adb363e00e3be5fa0cf961987</list_id>
-            <order_by/>
-            <position>1</position>
-            <related_list>task_cmdb_ci_service.task</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-05-19 09:03:46</sys_created_on>
-            <sys_id>b6c4c58adb363e00e3be5fa0cf961988</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-05-19 09:03:46</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="backup - Default view" name="x_votu_backup_backup" related_list="NULL" sys_domain="global" view="Default view">bec4c58adb363e00e3be5fa0cf961987</list_id>
-            <order_by/>
-            <position>2</position>
-            <related_list>sysapproval_approver.sysapproval</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-05-19 09:03:46</sys_created_on>
-            <sys_id>7ac4c58adb363e00e3be5fa0cf961988</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-05-19 09:03:46</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="backup - Default view" name="x_votu_backup_backup" related_list="NULL" sys_domain="global" view="Default view">bec4c58adb363e00e3be5fa0cf961987</list_id>
-            <order_by/>
-            <position>3</position>
-            <related_list>change_task.parent</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-05-19 09:03:46</sys_created_on>
-            <sys_id>3ec4c58adb363e00e3be5fa0cf961988</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-05-19 09:03:46</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="backup - Default view" name="x_votu_backup_backup" related_list="NULL" sys_domain="global" view="Default view">bec4c58adb363e00e3be5fa0cf961987</list_id>
-            <order_by/>
-            <position>4</position>
-            <related_list>REL:366eda7b0a0004970a7d925c9258806b</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-05-19 09:03:46</sys_created_on>
-            <sys_id>fec4c58adb363e00e3be5fa0cf961988</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-05-19 09:03:46</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="backup - Default view" name="x_votu_backup_backup" related_list="NULL" sys_domain="global" view="Default view">bec4c58adb363e00e3be5fa0cf961987</list_id>
-            <order_by/>
-            <position>5</position>
-            <related_list>REL:702782ce0a0a0b1b007514c6daa62dd5</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-05-19 09:03:46</sys_created_on>
-            <sys_id>b2c4c58adb363e00e3be5fa0cf961989</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-05-19 09:03:46</sys_updated_on>
+            <sys_updated_on>2017-08-17 10:21:57</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>backup - Default view</calculated_name>
@@ -94,11 +24,11 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>michelle.local</sys_created_by>
-            <sys_created_on>2017-05-19 09:03:46</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_created_on>2017-08-17 10:21:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bec4c58adb363e00e3be5fa0cf961987</sys_id>
+            <sys_id>6dc53cc7db24c740e3be5fa0cf961948</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>backup - Default view</sys_name>
             <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -107,7 +37,7 @@
             <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
             <sys_update_name>sys_ui_related_x_votu_backup_backup_null</sys_update_name>
             <sys_updated_by>michelle.local</sys_updated_by>
-            <sys_updated_on>2017-05-19 09:03:46</sys_updated_on>
+            <sys_updated_on>2017-08-17 10:21:57</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

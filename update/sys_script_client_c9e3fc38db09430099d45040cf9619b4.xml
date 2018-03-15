@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_target_backup_snapshot</field>
+        <global>true</global>
+        <messages/>
+        <name>target snapshot validation</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var state = g_form.getValue('u_state');
+	if (state == '-5'||state =='-6'){
+		var check = g_form.getValue('u_backup_type');
+		
+		if (check == 'snapshot'){
+			var snapshotDate = g_form.getValue('u_target_backup_snapshot');
+			
+			if (snapshotDate !=''){
+				var expiryDate = g_form.getValue("u_expiry7d");
+				var todayDate = g_scratchpad.today;
+				var format1 = g_user_date_time_format;
+				var format2 = g_user_date_format;
+				
+				var expiryDateMs = getDateFromFormat(expiryDate, format2);
+				var snapshotDateMs = getDateFromFormat(snapshotDate, format1);
+				var limitDateMs = snapshotDateMs +(8*1000*60*60*24);
+				//g_form.addInfoMessage(expiryDateMs);
+				//g_form.addInfoMessage(limitDate);
+
+				if (snapshotDateMs === 0) {
+					
+					g_form.showFieldMsg('u_target_backup_snapshot', new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("u_target_backup_snapshot")));
+					return false;
+				}
+				if (snapshotDateMs < todayDate){
+					g_form.hideFieldMsg('u_target_backup_snapshot', true);
+					g_form.showFieldMsg('u_target_backup_snapshot', new GwtMessage().getMessage("{0} must be after Today", g_form.getLabelOf("u_target_backup_snapshot")));
+					return false;
+				}
+				if (expiryDate!= '' && expiryDateMs <= todayDate){
+					g_form.showFieldMsg('u_expiry7d', new GwtMessage().getMessage("{0} must be after Today", g_form.getLabelOf("u_expiry7d")));
+					return false;
+				}
+				if (expiryDate!= '' && snapshotDateMs > expiryDateMs) {
+					//g_form.hideFieldMsg('u_target_backup_snapshot', true);
+					g_form.showFieldMsg('u_target_backup_snapshot',new GwtMessage().getMessage("{0} must be after {1}", g_form.getLabelOf("u_expiry7d"), g_form.getLabelOf("u_target_backup_snapshot")));
+					return false;
+				}
+				if (expiryDate!= '' && limitDateMs < expiryDateMs) {
+					g_form.showFieldMsg('u_expiry7d', new GwtMessage().getMessage("{0} must be within 7 days from take snapshot date", g_form.getLabelOf("u_expiry7d")));
+					return false;
+				}
+				
+			}
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>michelle.local</sys_created_by>
+        <sys_created_on>2017-09-04 07:00:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c9e3fc38db09430099d45040cf9619b4</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>target snapshot validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
+        <sys_update_name>sys_script_client_c9e3fc38db09430099d45040cf9619b4</sys_update_name>
+        <sys_updated_by>mscheung</sys_updated_by>
+        <sys_updated_on>2018-03-01 01:51:45</sys_updated_on>
+        <table>x_votu_backup_backup</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
