@@ -18,7 +18,7 @@
 	switch (state){
 		case '-6': //new
 			//g_form.showFieldMsg('u_state', "Request created, verify and click Request Approval");
-			g_form.addInfoMessage("Request created, verify and click Request Approval");
+			g_form.addInfoMessage("Verify and click Request Approval");
 			break;
 		case '-5': //Access
 			g_form.addInfoMessage('Request awaiting Approval');
@@ -48,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0265ffeddbe01b00494df2adbf961995</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Tips for state</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_script_client_0265ffeddbe01b00494df2adbf961995</sys_update_name>
         <sys_updated_by>mscheung</sys_updated_by>
-        <sys_updated_on>2018-03-01 01:58:39</sys_updated_on>
+        <sys_updated_on>2018-03-14 02:59:18</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
