@@ -10,6 +10,7 @@
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
+        <form_style/>
         <hint/>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
@@ -18,14 +19,14 @@
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
         <name>Save</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[answer = current.insert();
 gs.include('ActionUtils');
-var au = new ActionUtils();
-au.postInsert(current);
-alert('abc');]]></script>
+var au = new global.ActionUtils();
+au.postInsert(current);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -37,7 +38,7 @@ alert('abc');]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5cc835fdb01070099d45040cf9619cd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Save</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -45,8 +46,8 @@ alert('abc');]]></script>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_ui_action_e5cc835fdb01070099d45040cf9619cd</sys_update_name>
-        <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2018-01-05 03:03:49</sys_updated_on>
+        <sys_updated_by>mscheung</sys_updated_by>
+        <sys_updated_on>2018-03-26 03:10:35</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
-        <disabled>true</disabled>
-        <field>closed_at</field>
+        <disabled>ignore</disabled>
+        <field>u_reference_1</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
-        <sys_created_by>michelle.local</sys_created_by>
-        <sys_created_on>2017-08-15 07:33:00</sys_created_on>
+        <sys_created_by>mscheung</sys_created_by>
+        <sys_created_on>2018-03-26 02:46:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ffdb711adb288740e3be5fa0cf9619b3</sys_id>
+        <sys_id>f2b49586db491f0062e25040cf96198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>closed_at</sys_name>
+        <sys_name>u_reference_1</sys_name>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
-        <sys_update_name>sys_ui_policy_action_ffdb711adb288740e3be5fa0cf9619b3</sys_update_name>
-        <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2017-08-15 07:33:00</sys_updated_on>
+        <sys_update_name>sys_ui_policy_action_f2b49586db491f0062e25040cf96198d</sys_update_name>
+        <sys_updated_by>mscheung</sys_updated_by>
+        <sys_updated_on>2018-03-26 02:46:59</sys_updated_on>
         <table>x_votu_backup_backup</table>
-        <ui_policy display_value="forzen all in complete and close">eaab311adb288740e3be5fa0cf9619df</ui_policy>
-        <visible>ignore</visible>
+        <ui_policy display_value="frozen All the time">91841146db491f0062e25040cf9619d4</ui_policy>
+        <visible>false</visible>
     </sys_ui_policy_action>
 </record_update>
