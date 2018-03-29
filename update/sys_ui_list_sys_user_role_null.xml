@@ -4,122 +4,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a1ce63010a00064132e7da69e02ebb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>e342d814dbf7834062e25040cf96197c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-04-29 15:09:08</sys_created_on>
+            <sys_id>a1ce63020a00064114cc9f085c90ca72</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>assignable_by</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>6742d814dbf7834062e25040cf96197c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>can_delegate</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>e742d814dbf7834062e25040cf96197c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-04-29 15:09:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a1ce63010a00064132e7da69e02ebb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>3</position>
+            <position>1</position>
             <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>6b42d814dbf7834062e25040cf96197c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-04-29 15:09:08</sys_created_on>
+            <sys_id>a1ce63030a0006415abb7daf5e1fc09b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-04-29 15:09:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>elevated_privilege</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a1ce63010a00064132e7da69e02ebb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>4</position>
+            <position>2</position>
             <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>eb42d814dbf7834062e25040cf96197c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-04-29 15:09:08</sys_created_on>
+            <sys_id>a1ce63030a0006411e06ee2ec5ff5104</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>grantable</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>6f42d814dbf7834062e25040cf96197c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>includes_roles</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>ef42d814dbf7834062e25040cf96197c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>suffix</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">df42d814dbf7834062e25040cf96197b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>jennieb</sys_created_by>
-            <sys_created_on>2018-01-17 08:07:45</sys_created_on>
-            <sys_id>6342d814dbf7834062e25040cf96197d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jennieb</sys_updated_by>
-            <sys_updated_on>2018-01-17 08:07:45</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-04-29 15:09:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

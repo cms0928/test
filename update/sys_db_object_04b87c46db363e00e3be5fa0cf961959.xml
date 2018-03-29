@@ -18,7 +18,9 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Task" name="task">cd7158630f302200651cc19ce1050e7f</super_class>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>michelle.local</sys_created_by>
         <sys_created_on>2017-05-19 08:11:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
