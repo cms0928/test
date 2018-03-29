@@ -10,6 +10,7 @@
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
+        <form_style>primary</form_style>
         <hint>Request approval from line approver selected</hint>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
@@ -18,6 +19,7 @@
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
         <name>Request Approval</name>
         <onclick>moveToAssess()</onclick>
         <order>100</order>
@@ -197,7 +199,7 @@ function moveToAssess(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4309102db763e00e3be5fa0cf9619f6</sys_id>
-        <sys_mod_count>124</sys_mod_count>
+        <sys_mod_count>125</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="backup" source="x_votu_backup">1577a3ebdbeaf60099d45040cf9619d4</sys_package>
@@ -205,8 +207,8 @@ function moveToAssess(){
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="backup">1577a3ebdbeaf60099d45040cf9619d4</sys_scope>
         <sys_update_name>sys_ui_action_b4309102db763e00e3be5fa0cf9619f6</sys_update_name>
-        <sys_updated_by>michelle.local</sys_updated_by>
-        <sys_updated_on>2018-01-03 04:20:56</sys_updated_on>
+        <sys_updated_by>mscheung</sys_updated_by>
+        <sys_updated_on>2018-03-26 03:12:44</sys_updated_on>
         <table>x_votu_backup_backup</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
